@@ -1,0 +1,322 @@
+/*--------------------------------------------------------------
+  Servicibility Page Styles
+----------------------------------------------------------------*/
+.cs-servicibility-page {
+  padding: 80px 0;
+  background: $white;
+  min-height: 80vh;
+  
+  .cs-servicibility-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  // Header Banner
+  .cs-servicibility-banner {
+    background: $accent;
+    border-radius: 15px 15px 0 0;
+    padding: 40px 30px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    
+    .cs-banner-icon {
+      font-size: 32px;
+      color: $white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    h1 {
+      color: $white;
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+  
+  // Pincode Check Card
+  .cs-pincode-check-card {
+    background: $white;
+    border-radius: 0 0 15px 15px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    
+    .cs-card-header {
+      margin-bottom: 20px;
+      
+      h3 {
+        color: $black;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0;
+      }
+    }
+    
+    .cs-pincode-input-group {
+      margin-bottom: 20px;
+      
+      .cs-pincode-input {
+        width: 100%;
+        max-width: 400px;
+        padding: 15px 20px;
+        border: 2px solid $border;
+        border-radius: 10px;
+        font-size: 18px;
+        text-align: center;
+        transition: all 0.3s ease;
+        
+        &:focus {
+          outline: none;
+          border-color: $accent;
+          box-shadow: 0 0 0 3px rgba($accent, 0.1);
+        }
+        
+        &::placeholder {
+          color: $secondary;
+          font-size: 16px;
+        }
+      }
+    }
+    
+    .cs-error-message {
+      color: #e74c3c;
+      font-size: 14px;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+    
+    .cs-check-btn-wrapper {
+      margin-bottom: 30px;
+      
+      .cs-check-pincode-btn {
+        background: $accent;
+        color: $white;
+        border: none;
+        padding: 15px 40px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        
+        &:hover:not(:disabled) {
+          background: darken($accent, 10%);
+          transform: translateY(-2px);
+          box-shadow: 0 5px 15px rgba($accent, 0.3);
+        }
+        
+        &:disabled {
+          opacity: 0.7;
+          cursor: not-allowed;
+        }
+      }
+    }
+    
+    // Result Card
+    .cs-result-card {
+      border-radius: 10px;
+      padding: 25px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      text-align: left;
+      margin-top: 20px;
+      
+      &.success {
+        background: #d4edda;
+        border: 1px solid #c3e6cb;
+        color: #155724;
+        
+        .cs-result-icon {
+          color: #28a745;
+          font-size: 32px;
+        }
+      }
+      
+      &.error {
+        background: #f8d7da;
+        border: 1px solid #f5c6cb;
+        color: #721c24;
+        
+        .cs-result-icon {
+          color: #dc3545;
+          font-size: 32px;
+        }
+      }
+      
+      .cs-result-content {
+        flex: 1;
+        
+        h4 {
+          margin: 0 0 10px 0;
+          font-size: 18px;
+          font-weight: 600;
+        }
+        
+        .cs-result-message {
+          margin: 0 0 10px 0;
+          font-size: 16px;
+          line-height: 1.5;
+        }
+        
+        .cs-delivery-time {
+          margin: 0;
+          font-size: 14px;
+          color: $secondary;
+          
+          strong {
+            color: $accent;
+          }
+        }
+      }
+    }
+  }
+  
+  // Information Section
+  .cs-servicibility-info {
+    .cs-info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+      
+      .cs-info-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 25px;
+        background: $white;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease;
+        
+        &:hover {
+          transform: translateY(-5px);
+        }
+        
+        .cs-info-icon {
+          color: $accent;
+          font-size: 24px;
+          margin-top: 5px;
+        }
+        
+        .cs-info-content {
+          h4 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            font-weight: 600;
+            color: $black;
+          }
+          
+          p {
+            margin: 0;
+            font-size: 14px;
+            color: $secondary;
+            line-height: 1.6;
+          }
+        }
+      }
+    }
+  }
+  
+  // Responsive Design
+  @media screen and (max-width: 991px) {
+    padding: 60px 0;
+    
+    .cs-servicibility-banner {
+      padding: 30px 20px;
+      flex-direction: column;
+      gap: 15px;
+      
+      .cs-banner-icon {
+        font-size: 20px;
+      }
+      
+      h1 {
+        font-size: 24px;
+      }
+    }
+    
+    .cs-pincode-check-card {
+      padding: 30px 20px;
+      
+      .cs-card-header h3 {
+        font-size: 20px;
+      }
+      
+      .cs-pincode-input-group .cs-pincode-input {
+        font-size: 16px;
+        padding: 12px 15px;
+      }
+      
+      .cs-check-btn-wrapper .cs-check-pincode-btn {
+        padding: 12px 30px;
+        font-size: 14px;
+      }
+    }
+    
+    .cs-servicibility-info .cs-info-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    padding: 40px 0;
+    
+    .cs-servicibility-banner {
+      padding: 25px 15px;
+      
+      h1 {
+        font-size: 24px;
+      }
+    }
+    
+    .cs-pincode-check-card {
+      padding: 25px 15px;
+      
+      .cs-card-header h3 {
+        font-size: 18px;
+      }
+      
+      .cs-pincode-input-group .cs-pincode-input {
+        font-size: 14px;
+        padding: 10px 12px;
+      }
+      
+      .cs-check-btn-wrapper .cs-check-pincode-btn {
+        padding: 10px 25px;
+        font-size: 13px;
+      }
+      
+      .cs-result-card {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        
+        .cs-result-content {
+          text-align: center;
+        }
+      }
+    }
+    
+    .cs-servicibility-info .cs-info-grid .cs-info-item {
+      padding: 20px 15px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+    }
+  }
+}

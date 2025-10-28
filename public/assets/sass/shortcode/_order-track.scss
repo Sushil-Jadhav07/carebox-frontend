@@ -1,0 +1,220 @@
+/*--------------------------------------------------------------
+  35. Order Track
+----------------------------------------------------------------*/
+.cs-order-track-search{
+    .cs-search-widget{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+        .cs-search-content{
+            min-width: 400px;
+        }
+    }
+}
+
+.cs-logi-order-trackign-content{
+    display: flex;
+    justify-content: space-between;
+    .cs-logi-order-track{
+        width: 100%;
+    }
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  & img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+}
+
+.cs-logi-order-track {
+  border-top: 1px dashed $accent;
+  padding-top: 2.5rem;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
+  position: relative;
+  margin: 30px 0;
+
+  &-step {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 0 15px;
+    min-width: 120px;
+
+    &:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 20px;
+      left: calc(50% + 20px);
+      right: -20px;
+      height: 3px;
+      background: #4CAF50;
+      z-index: 1;
+    }
+
+    // Last step should NOT have a line after it
+    &:last-child::after {
+      display: none;
+    }
+  }
+
+  &-status {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 15px;
+
+    &-dot {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      position: relative;
+      border: 3px solid $white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+      &.completed {
+        background: #4CAF50;
+        color: $white;
+      }
+
+      &.pending {
+        background: #E0E0E0;
+        color: #9E9E9E;
+      }
+
+      .cs-status-icon {
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .cs-checkmark {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        background: #4CAF50;
+        color: $white;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 8px;
+        font-weight: bold;
+        border: 2px solid $white;
+      }
+    }
+
+    &-line {
+      display: none;
+    }
+  }
+
+  &-text {
+    text-align: center;
+    max-width: 120px;
+
+    &-stat {
+      font-size: 14px;
+      color: $black;
+      font-weight: 600;
+      margin: 0 0 4px 0;
+      line-height: 1.2;
+      padding: 0;
+    }
+
+    &-date {
+      font-size: 12px;
+      color: $secondary;
+      margin: 0 0 2px 0;
+      display: block;
+    }
+
+    &-time {
+      font-size: 12px;
+      color: $secondary;
+      margin: 0 0 2px 0;
+      display: block;
+    }
+
+    &-location {
+      font-size: 12px;
+      color: #2196F3;
+      margin: 0;
+      display: block;
+      font-weight: 500;
+    }
+  }
+}
+@media screen and (max-width: 880px) {
+  .cs-order-track-search{
+    .cs-search-widget{
+      flex-direction: column;
+      align-items: flex-start;
+      input{
+        width: 92vw;
+      }
+    }
+  }
+  
+  .cs-logi-order-trackign-content{
+    display: flex;
+    justify-content: space-between;
+    .cs-logi-order-track{
+        width: 100%;
+    }
+  }
+  
+  .cs-logi-order-track {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+    &-step {
+      flex: none;
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 0;
+      min-width: auto;
+      
+      &:not(:last-child) {
+        &::after {
+          display: none; // Hide horizontal lines on mobile
+        }
+      }
+    }
+    
+    &-status {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    &-text {
+      text-align: center;
+      max-width: none;
+      
+      &-stat {
+        font-size: 14px;
+      }
+      
+      &-date, &-time, &-location {
+        font-size: 12px;
+      }
+    }
+  }
+}

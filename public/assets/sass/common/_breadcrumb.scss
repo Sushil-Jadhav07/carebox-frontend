@@ -1,0 +1,108 @@
+/*--------------------------------------------------------------
+  09. Breadcrumb Style
+----------------------------------------------------------------*/
+.cs-braidcrumb-wrap {
+  position: relative;
+  height: calc(500px - 0px);
+  margin-top: 0;
+  color: $white;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-size: 100% auto;
+  background-position: center center;
+  transition: background-size 0.7s ease-out;
+  overflow: hidden;
+  .img-scroll-parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: contain;
+  }
+  .cs-bread-page-title-area {
+    .cs-bread-cap {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+    .cs-page-title {
+      color: $white;
+    }
+  }
+  .breadcrumb {
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: $white;
+    clip-path: polygon(7% 0, 100% 0%, 93% 100%, 0% 100%);
+    margin: 0px;
+    width: 315px;
+    height: 40px;
+    ul {
+      display: flex;
+      gap: 10px;
+      color: $black;
+      &:last-child {
+        color: $secondary;
+      }
+      li {
+        list-style: none;
+      }
+    }
+  }
+  &.cs-bread-style-2 {
+    display: flex;
+    align-items: center;
+    background: #D40511;
+    color: $white;
+    position: initial;
+    height: auto;
+    padding-top: 150px;
+    .breadcrumb {
+      position: initial;
+    }
+    .cs-page-title-in {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .cs-braidcrumb-wrap {
+    height: calc(350px - 0px);
+    background-size: cover !important;
+    background-position: right center;
+  }
+}
+@media screen and (max-width: 991px) {
+  .cs-braidcrumb-wrap {
+    height: calc(300px - 0px);
+    .cs-bread-cap {
+      display: none !important;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .cs-braidcrumb-wrap {
+    height: calc(250px - 0px);
+    .img-scroll-parallax {
+      object-fit: cover;
+    }
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .cs-braidcrumb-wrap {
+    margin-top: 0;
+  }
+}

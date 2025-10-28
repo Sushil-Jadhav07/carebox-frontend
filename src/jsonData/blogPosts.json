@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "blogId": 1,
+    "title": "Efficient Transport is Key to Success",
+    "date": "21 Aug 2024",
+    "author": "Admin",
+    "image": "/assets/img/blog/blog-single-main-img.jpg",
+    "content": [
+      {
+        "heading": "Understand Your Business Needs",
+        "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements..."
+      },
+      {
+        "heading": "Evaluate Industry Experience",
+        "text": "Experience matters in logistics. Look for a partner with a proven track record in your industry..."
+      },
+      {
+        "quote": "Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales."
+      },
+      {
+        "heading": "Prioritize Reliability and Timeliness",
+        "text": "Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales..."
+      }
+    ],
+    "images": [
+      "/assets/img/blog/blog-details-img.jpg",
+      "/assets/img/blog/blog-details-img2.jpg"
+    ],
+    "tags": ["Sustainability", "GlobalTrade"],
+    "categories": [
+      "Supply Chain Management",
+      "Transportation and Shipping",
+      "Technology in Logistics",
+      "Logistics Solutions",
+      "Warehousing and Distribution",
+      "Regulations and Compliance"
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "name": "Alexander Bennett",
+        "avatar": "/assets/img/blog/avatar-comment-1.png",
+        "time": "3 Hours ago",
+        "text": "Lorem Ipsum established fact that a reader will be distracted by the readable content of a page when looking at its layout...",
+        "userType": "admin"
+      },
+      {
+        "id": 2,
+        "name": "Nathaniel Carter",
+        "avatar": "/assets/img/blog/avatar-comment-2.png",
+        "time": "3 Hours ago",
+        "text": "Lorem Ipsum established fact that a reader will be distracted by the readable content of a page when looking at its layout...",
+        "userType": "user"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "blogId": 2,
+    "title": "The Role of AI in Modern Logistics",
+    "date": "21 Aug 2024",
+    "author": "Admin",
+    "image": "/assets/img/blog/blog-single-main-img.jpg",
+    "content": [
+      {
+        "heading": "Understand Your Business Needs",
+        "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements..."
+      },
+      {
+        "heading": "Evaluate Industry Experience",
+        "text": "Experience matters in logistics. Look for a partner with a proven track record in your industry..."
+      },
+      {
+        "quote": "Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales."
+      },
+      {
+        "heading": "Prioritize Reliability and Timeliness",
+        "text": "Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales..."
+      }
+    ],
+    "images": [
+      "/assets/img/blog/blog-details-img.jpg",
+      "/assets/img/blog/blog-details-img2.jpg"
+    ],
+    "tags": ["Sustainability", "GlobalTrade"],
+    "categories": [
+      "Supply Chain Management",
+      "Transportation and Shipping",
+      "Technology in Logistics",
+      "Logistics Solutions",
+      "Warehousing and Distribution",
+      "Regulations and Compliance"
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "name": "Alexander Bennett",
+        "avatar": "/assets/img/blog/avatar-comment-1.png",
+        "time": "3 Hours ago",
+        "text": "Lorem Ipsum established fact that a reader will be distracted by the readable content of a page when looking at its layout...",
+        "userType": "admin"
+      },
+      {
+        "id": 2,
+        "name": "Nathaniel Carter",
+        "avatar": "/assets/img/blog/avatar-comment-2.png",
+        "time": "3 Hours ago",
+        "text": "Lorem Ipsum established fact that a reader will be distracted by the readable content of a page when looking at its layout...",
+        "userType": "user"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "blogId": 3,
+    "title": "The Benefits of Real-Time Tracking",
+    "date": "21 Aug 2024",
+    "author": "Admin",
+    "image": "/assets/img/blog/blog-single-main-img.jpg",
+    "content": [
+      {
+        "heading": "Understand Your Business Needs",
+        "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements..."
+      },
+      {
+        "heading": "Evaluate Industry Experience",
+        "text": "Experience matters in logistics. Look for a partner with a proven track record in your industry..."
+      },
+      {
+        "quote": "Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales."
+      },
+      {
+        "heading": "Prioritize Reliability and Timeliness",
+        "text": "Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales..."
+      }
+    ],
+    "images": [
+      "/assets/img/blog/blog-details-img.jpg",
+      "/assets/img/blog/blog-details-img2.jpg"
+    ],
+    "tags": ["Sustainability", "GlobalTrade"],
+    "categories": [
+      "Supply Chain Management",
+      "Transportation and Shipping",
+      "Technology in Logistics",
+      "Logistics Solutions",
+      "Warehousing and Distribution",
+      "Regulations and Compliance"
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "name": "Alexander Bennett",
+        "avatar": "/assets/img/blog/avatar-comment-1.png",
+        "time": "3 Hours ago",
+        "text": "Lorem Ipsum established fact that a reader will be distracted by the readable content of a page when looking at its layout...",
+        "userType": "admin"
+      },
+      {
+        "id": 2,
+        "name": "Nathaniel Carter",
+        "avatar": "/assets/img/blog/avatar-comment-2.png",
+        "time": "3 Hours ago",
+        "text": "Lorem Ipsum established fact that a reader will be distracted by the readable content of a page when looking at its layout...",
+        "userType": "user"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "blogId": 4,
+    "title": "Efficient Transport is Key to Success",
+    "date": "21 Aug 2024",
+    "author": "Admin",
+    "image": "/assets/img/blog/blog-single-main-img.jpg",
+    "content": [
+      {
+        "heading": "Understand Your Business Needs",
+        "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements..."
+      },
+      {
+        "heading": "Evaluate Industry Experience",
+        "text": "Experience matters in logistics. Look for a partner with a proven track record in your industry..."
+      },
+      {
+        "quote": "Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales."
+      },
+      {
+        "heading": "Prioritize Reliability and Timeliness",
+        "text": "Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales..."
+      }
+    ],
+    "images": [
+      "/assets/img/blog/blog-details-img.jpg",
+      "/assets/img/blog/blog-details-img2.jpg"
+    ],
+    "tags": ["Sustainability", "GlobalTrade"],
+    "categories": [
+      "Supply Chain Management",
+      "Transportation and Shipping",
+      "Technology in Logistics",
+      "Logistics Solutions",
+      "Warehousing and Distribution",
+      "Regulations and Compliance"
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "name": "Alexander Bennett",
+        "avatar": "/assets/img/blog/avatar-comment-1.png",
+        "time": "3 Hours ago",
+        "text": "Lorem Ipsum established fact that a reader will be distracted by the readable content of a page when looking at its layout...",
+        "userType": "admin"
+      },
+      {
+        "id": 2,
+        "name": "Nathaniel Carter",
+        "avatar": "/assets/img/blog/avatar-comment-2.png",
+        "time": "3 Hours ago",
+        "text": "Lorem Ipsum established fact that a reader will be distracted by the readable content of a page when looking at its layout...",
+        "userType": "user"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "blogId": 5,
+    "title": "The Benefits of Real-Time Tracking in Logistics Operations",
+    "date": "21 Aug 2024",
+    "author": "Admin",
+    "image": "/assets/img/blog/blog-single-main-img.jpg",
+    "content": [
+      {
+        "heading": "Understand Your Business Needs",
+        "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements..."
+      },
+      {
+        "heading": "Evaluate Industry Experience",
+        "text": "Experience matters in logistics. Look for a partner with a proven track record in your industry..."
+      },
+      {
+        "quote": "Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales."
+      },
+      {
+        "heading": "Prioritize Reliability and Timeliness",
+        "text": "Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales..."
+      }
+    ],
+    "images": [
+      "/assets/img/blog/blog-details-img.jpg",
+      "/assets/img/blog/blog-details-img2.jpg"
+    ],
+    "tags": ["Sustainability", "GlobalTrade"],
+    "categories": [
+      "Supply Chain Management",
+      "Transportation and Shipping",
+      "Technology in Logistics",
+      "Logistics Solutions",
+      "Warehousing and Distribution",
+      "Regulations and Compliance"
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "name": "Alexander Bennett",
+        "avatar": "/assets/img/blog/avatar-comment-1.png",
+        "time": "3 Hours ago",
+        "text": "Lorem Ipsum established fact that a reader will be distracted by the readable content of a page when looking at its layout...",
+        "userType": "admin"
+      },
+      {
+        "id": 2,
+        "name": "Nathaniel Carter",
+        "avatar": "/assets/img/blog/avatar-comment-2.png",
+        "time": "3 Hours ago",
+        "text": "Lorem Ipsum established fact that a reader will be distracted by the readable content of a page when looking at its layout...",
+        "userType": "user"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "blogId": 6,
+    "title": "Innovations in Last-Mile Delivery: What’s Next for the Industry?",
+    "date": "21 Aug 2024",
+    "author": "Admin",
+    "image": "/assets/img/blog/blog-single-main-img.jpg",
+    "content": [
+      {
+        "heading": "Understand Your Business Needs",
+        "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements..."
+      },
+      {
+        "heading": "Evaluate Industry Experience",
+        "text": "Experience matters in logistics. Look for a partner with a proven track record in your industry..."
+      },
+      {
+        "quote": "Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales."
+      },
+      {
+        "heading": "Prioritize Reliability and Timeliness",
+        "text": "Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales..."
+      }
+    ],
+    "images": [
+      "/assets/img/blog/blog-details-img.jpg",
+      "/assets/img/blog/blog-details-img2.jpg"
+    ],
+    "tags": ["Sustainability", "GlobalTrade"],
+    "categories": [
+      "Supply Chain Management",
+      "Transportation and Shipping",
+      "Technology in Logistics",
+      "Logistics Solutions",
+      "Warehousing and Distribution",
+      "Regulations and Compliance"
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "name": "Alexander Bennett",
+        "avatar": "/assets/img/blog/avatar-comment-1.png",
+        "time": "3 Hours ago",
+        "text": "Lorem Ipsum established fact that a reader will be distracted by the readable content of a page when looking at its layout...",
+        "userType": "admin"
+      },
+      {
+        "id": 2,
+        "name": "Nathaniel Carter",
+        "avatar": "/assets/img/blog/avatar-comment-2.png",
+        "time": "3 Hours ago",
+        "text": "Lorem Ipsum established fact that a reader will be distracted by the readable content of a page when looking at its layout...",
+        "userType": "user"
+      }
+    ]
+  }
+]

@@ -1,0 +1,226 @@
+{
+  "tab1": [
+    {
+      "id": 1,
+      "title": "What services does your logistics company provide?",
+      "description": "We offer comprehensive logistics solutions including transportation (road, rail, air, sea), warehousing, inventory management, and supply chain optimization. Our services are designed to meet diverse business needs efficiently while maintaining cost-effectiveness. We provide tailored solutions for businesses of all sizes, ensuring seamless operations from origin to destination with professional handling and advanced tracking systems for complete shipment visibility throughout the entire logistics process."
+    },
+    {
+      "id": 2,
+      "title": "Do you offer international shipping?",
+      "description": "Yes, we provide international shipping to over 100 countries through our global network. Our services include customs clearance expertise, competitive freight rates, and reliable delivery timelines. We handle all documentation and regulatory requirements to ensure smooth cross-border transactions. Our international team manages the complexities of global trade so you can focus on your core business while we ensure your shipments arrive on time and intact."
+    },
+    {
+      "id": 3,
+      "title": "What industries do you serve?",
+      "description": "We serve retail, manufacturing, healthcare, e-commerce, automotive, and technology sectors with customized logistics solutions. Each industry receives specialized handling to address its unique requirements, whether it's temperature control for pharmaceuticals or just-in-time delivery for manufacturing. Our industry experts understand sector-specific challenges and develop tailored approaches to optimize supply chains, reduce costs, and improve delivery performance for each client's particular business needs."
+    },
+    {
+      "id": 4,
+      "title": "What types of transportation do you offer?",
+      "description": "We provide multimodal transport options including road freight, rail solutions, air cargo, and ocean shipping. Our transportation specialists select the optimal mode based on cargo type, urgency, and budget considerations. We combine different transport methods when needed to create the most efficient routing. All shipments receive careful handling and continuous monitoring throughout transit to ensure safe, timely delivery while maintaining cost efficiency across all transportation modes."
+    },
+    {
+      "id": 5,
+      "title": "Do you provide temperature-controlled logistics?",
+      "description": "Yes, we offer comprehensive temperature-controlled logistics for sensitive products. Our services include refrigerated transport, climate-controlled warehousing, and continuous temperature monitoring. We maintain strict protocols for pharmaceuticals, perishable foods, and other temperature-sensitive items. Our cold chain solutions feature redundant cooling systems, real-time temperature tracking, and emergency protocols to ensure product integrity from pickup through final delivery under required climate conditions."
+    },
+    {
+      "id": 6,
+      "title": "Can you handle oversized or heavy shipments?",
+      "description": "We specialize in transporting oversized and heavy cargo with specialized equipment and expertise. Our services include route surveys, permit acquisition, and custom securement solutions. We handle industrial machinery, construction equipment, and other exceptional-sized shipments with precision. Our team plans every detail from loading to final placement, ensuring safe transit while complying with all dimensional and weight regulations for over-dimensional freight movements."
+    }
+  ],
+  "tab2": [
+    {
+      "id": 1,
+      "title": "How do you ensure the safety and security of goods during transportation?",
+      "description": "We implement multiple security layers including GPS tracking, tamper-evident seals, and trained security personnel. All facilities have surveillance systems and access controls. We conduct regular security audits and driver background checks. Shipments are monitored throughout transit with real-time alerts for any deviations. Our security protocols meet industry standards and we continuously update measures to address emerging threats, ensuring cargo protection from origin to destination."
+    },
+    {
+      "id": 2,
+      "title": "What measures do you take to prevent theft?",
+      "description": "Our anti-theft measures include 24/7 monitoring, geo-fencing technology, and secure parking facilities. We use high-security locks and tracking devices on all high-value shipments. Drivers receive security training and follow strict protocols during stops. We analyze theft patterns to identify risk areas and implement preventive strategies. Our security team maintains relationships with law enforcement to quickly respond to any incidents and recover stolen goods whenever possible."
+    },
+    {
+      "id": 3,
+      "title": "Do you provide insurance for shipments?",
+      "description": "We offer comprehensive cargo insurance options covering various transit risks. Policies can be customized to match shipment values and specific requirements. Our insurance partners provide all-risk coverage options with competitive premiums. We assist with claims processing and documentation when needed. Clients can choose from different coverage levels and deductibles to create protection plans that balance cost with appropriate risk management for their shipments."
+    },
+    {
+      "id": 4,
+      "title": "What happens if my shipment is damaged?",
+      "description": "In case of damage, we initiate an immediate investigation and claims process. Our team documents the damage and gathers all relevant evidence. We work with insurance providers to facilitate fair compensation according to policy terms. Customers receive regular updates throughout the claims process. We also analyze damage incidents to identify root causes and implement preventive measures to reduce future occurrences."
+    },
+    {
+      "id": 5,
+      "title": "Do you offer real-time tracking?",
+      "description": "Our real-time tracking system provides continuous shipment visibility through web portals and mobile apps. Customers receive GPS updates, estimated arrival times, and exception alerts. Tracking includes temperature data for climate-controlled shipments and handling milestones. Authorized users can access detailed shipment histories and download reports. Our tracking technology integrates with most enterprise systems for seamless supply chain visibility and exception management."
+    },
+    {
+      "id": 6,
+      "title": "How do you handle hazardous materials?",
+      "description": "We follow strict hazardous material regulations with certified handlers and specialized equipment. All hazmat shipments are properly classified, labeled, and documented. We use approved containers and maintain separation requirements. Our staff receives regular safety training and emergency response drills. We coordinate with authorities to ensure full compliance and have protocols for incident reporting and containment if needed."
+    }
+  ],
+  "tab3": [
+    {
+      "id": 1,
+      "title": "How do you handle customs clearance for international shipments?",
+      "description": "Our customs experts manage all clearance procedures including documentation preparation and submission. We handle tariff classification, duty calculation, and regulatory compliance. Our global network includes local customs brokers in key markets. We monitor clearance progress and resolve any issues promptly. Our systems maintain all required records for audits and compliance verification. We streamline cross-border movements while ensuring full adherence to all customs regulations."
+    },
+    {
+      "id": 2,
+      "title": "What documents are required for customs clearance?",
+      "description": "Required documents typically include commercial invoice, packing list, and transport documents (bill of lading/airway bill). Depending on goods and destination, certificates of origin, licenses, or permits may be needed. We provide complete checklists for each shipment and assist with document preparation. Our team verifies all paperwork for accuracy before submission to prevent clearance delays. We maintain digital copies of all documents for easy retrieval."
+    },
+    {
+      "id": 3,
+      "title": "Do you handle customs duties and taxes?",
+      "description": "We calculate estimated duties and taxes for shipment planning purposes. Our systems can process duty payments on your behalf or provide detailed cost breakdowns for self-filing. We offer duty deferment programs and help clients leverage trade agreements to reduce costs. All duty-related transactions are fully documented and reported for your records. We provide visibility into all customs-related costs before shipment confirmation."
+    },
+    {
+      "id": 4,
+      "title": "How long does customs clearance usually take?",
+      "description": "Standard clearance typically completes within 1-3 business days, depending on country and commodity. Express options are available for urgent shipments. We monitor clearance progress and intervene if delays occur. Factors like inspections, documentation issues, or special regulations can extend processing. Our local knowledge helps anticipate potential delays and we maintain relationships with customs officials to facilitate smooth processing."
+    },
+    {
+      "id": 5,
+      "title": "Can you help with import/export regulations?",
+      "description": "Our trade compliance team stays current with global import/export regulations. We advise on licensing requirements, restricted items, and trade sanctions. Our systems flag potential compliance issues before shipment. We provide classification services and maintain denied party screening programs. For complex regulations, we consult with legal specialists to ensure full compliance. We also offer training programs to help clients understand their regulatory obligations."
+    },
+    {
+      "id": 6,
+      "title": "What if my shipment is held at customs?",
+      "description": "If customs holds a shipment, we immediately investigate the reason and required actions. Our local representatives work directly with authorities to resolve issues. We coordinate any needed documentation or inspections. Clients receive regular updates and we provide clear options for resolution. Most holds are resolved within 48 hours once requirements are met. We analyze hold reasons to prevent future occurrences."
+    }
+  ],
+  "tab4": [
+    {
+      "id": 1,
+      "title": "How do you ensure sustainability in your logistics operations?",
+      "description": "We implement eco-friendly practices including route optimization, alternative fuel vehicles, and energy-efficient facilities. Our sustainability program focuses on reducing emissions, minimizing waste, and conserving resources. We invest in technology to improve efficiency and partner with environmentally responsible suppliers. Sustainability metrics are tracked and reported regularly. Our team continuously identifies new opportunities to reduce environmental impact while maintaining service quality and operational efficiency."
+    },
+    {
+      "id": 2,
+      "title": "Do you offer carbon-neutral shipping options?",
+      "description": "Our carbon-neutral program calculates shipment emissions using verified methodologies. Customers can opt to offset emissions through certified environmental projects. We provide transparent reporting on emission calculations and offset investments. Offsets support renewable energy, reforestation, and energy efficiency initiatives. Participants receive sustainability certificates documenting their carbon-neutral shipments. This program helps clients meet their corporate sustainability goals while reducing supply chain environmental impact."
+    },
+    {
+      "id": 3,
+      "title": "What is your policy on waste management?",
+      "description": "We follow a strict reduce-reuse-recycle hierarchy for all waste streams. Our facilities implement recycling programs and waste reduction initiatives. Hazardous materials are disposed of properly through certified providers. We set annual waste reduction targets and track progress. Packaging materials are optimized to minimize waste generation. Where possible, we repair and reuse equipment rather than replace. Our waste management practices comply with all environmental regulations."
+    },
+    {
+      "id": 4,
+      "title": "Do you use renewable energy in your facilities?",
+      "description": "We increasingly power our facilities with renewable energy, including solar installations at key locations. Our energy procurement strategy prioritizes clean power sources where available. We invest in energy efficiency upgrades to reduce overall consumption. Renewable energy usage is tracked and reported in our sustainability metrics. Future construction projects incorporate renewable energy systems from initial design. Our goal is continuous increase in renewable energy percentage annually."
+    },
+    {
+      "id": 5,
+      "title": "How do you reduce fuel consumption?",
+      "description": "We optimize delivery routes using advanced algorithms to minimize miles driven. Our fleet includes fuel-efficient vehicles and we pilot alternative fuel options. Drivers receive eco-driving training to improve fuel efficiency. Regular vehicle maintenance ensures optimal performance. We monitor fuel usage across operations to identify improvement opportunities. Telematics systems help reduce idle time and optimize driving patterns. These measures collectively reduce both costs and environmental impact."
+    },
+    {
+      "id": 6,
+      "title": "Do you partner with eco-friendly suppliers?",
+      "description": "We prioritize suppliers with strong environmental performance in our procurement process. Supplier sustainability assessments evaluate environmental practices. We collaborate with partners to implement joint sustainability initiatives. Preferred supplier programs recognize and reward environmental leadership. Where possible, we source locally to reduce transportation impacts. Our supplier code of conduct includes environmental standards that partners must meet or work toward achieving."
+    }
+  ],
+  "tab5": [
+    {
+      "id": 1,
+      "title": "What is your refund policy?",
+      "description": "Refunds are available for eligible services within 30 days of payment, subject to terms. Specialized services may have different refund conditions. We review each request individually based on service completion and circumstances. Approved refunds are processed to the original payment method. Certain fees may be non-refundable as specified in service agreements. Our customer service team can provide specific policy details for your particular services upon request."
+    },
+    {
+      "id": 2,
+      "title": "How long does it take to process a refund?",
+      "description": "Refund processing typically completes within 5-7 business days after approval. The timing depends on your financial institution's processing of the return transaction. We initiate refunds promptly upon approval and provide confirmation details. Credit card refunds may appear faster than bank transfers. You'll receive notification when processing begins and when completed. Delays can occur during bank holidays or if additional verification is required."
+    },
+    {
+      "id": 3,
+      "title": "Are there any non-refundable services?",
+      "description": "Customized services, expedited processing, and special handling fees are generally non-refundable. Services already rendered or resources committed on your behalf may not qualify for refunds. Deposits for scheduled services may have specific cancellation terms. We clearly identify non-refundable elements during service booking. Our team can explain which portions of your service, if any, might be non-refundable based on your specific situation."
+    },
+    {
+      "id": 4,
+      "title": "What if I am not satisfied with the service?",
+      "description": "We thoroughly investigate all service concerns to reach satisfactory resolutions. Please contact our customer service team with details of your dissatisfaction. We may offer service credits, re-performance, or partial refunds depending on circumstances. Your feedback helps us improve operations. We document all complaints and implement corrective actions when patterns emerge. Most service issues can be resolved through our escalation process."
+    },
+    {
+      "id": 5,
+      "title": "Can I cancel a shipment after it has been dispatched?",
+      "description": "Once dispatched, shipments cannot be canceled but we can attempt to reroute or return them, subject to fees. The feasibility depends on shipment progress and carrier policies. We assess each situation individually and provide options when available. Return shipping costs and any applicable duties become the shipper's responsibility. Early notification increases the chances of successful intervention. We'll explain all potential costs before proceeding."
+    },
+    {
+      "id": 6,
+      "title": "Do you offer compensation for delays?",
+      "description": "Compensation for delays depends on service terms and specific circumstances. We review each case individually considering factors like delay cause and impact. Some premium services include guaranteed delivery times with defined compensation. For standard services, we typically don't offer monetary compensation but will investigate causes and implement preventive measures. We prioritize restoring normal service and maintaining communication during delays."
+    }
+  ],
+  "tab6": [
+    {
+      "id": 1,
+      "title": "What is your privacy policy?",
+      "description": "Our privacy policy complies with applicable data protection laws and industry standards. We implement technical and organizational measures to safeguard personal information. Data is collected only for legitimate business purposes with appropriate consent when required. We limit data access to authorized personnel and maintain strict confidentiality. Our policy details your rights regarding your personal data and how to exercise them. The full policy is available on our website."
+    },
+    {
+      "id": 2,
+      "title": "How do you use my personal information?",
+      "description": "We use personal data solely for service provision, account management, and legitimate business operations. This includes order processing, customer support, and regulatory compliance. With consent, we may send marketing communications. We don't sell personal data to third parties. Data may be shared with service providers under strict confidentiality agreements. We maintain records of data processing activities and implement appropriate security safeguards."
+    },
+    {
+      "id": 3,
+      "title": "Can I request to delete my data?",
+      "description": "You may request data deletion subject to legal retention requirements for business records, tax compliance, or contractual obligations. We'll delete what we can and explain any retention needs. Requests should be submitted through our privacy portal or to our Data Protection Officer. We'll confirm completion and provide details of any retained data. Some service features may become unavailable if essential data is deleted."
+    },
+    {
+      "id": 4,
+      "title": "Do you use cookies on your website?",
+      "description": "Our website uses necessary cookies for functionality and analytical cookies to improve user experience. Cookie preferences can be managed through our consent banner. Essential cookies don't require consent, while others are optional. We provide clear information about each cookie's purpose and duration. Third-party cookies are used only with appropriate safeguards. Our cookie policy details all types used and how to control them."
+    },
+    {
+      "id": 5,
+      "title": "How do you protect my payment information?",
+      "description": "We use PCI-compliant encryption for all payment transactions and don't store full credit card details. Payment processing occurs through secure gateways with tokenization technology. Financial data access is strictly limited to authorized personnel. Regular security audits ensure compliance with payment security standards. We monitor for suspicious activity and immediately investigate any potential breaches. Customers can use saved payment methods without exposing full details."
+    },
+    {
+      "id": 6,
+      "title": "Can I opt out of marketing communications?",
+      "description": "You can opt out of marketing emails through the unsubscribe link in each message. For other channels, update preferences in your account settings or contact customer service. Opt-out requests are processed promptly, though some operational messages may continue. We maintain suppression lists to prevent unwanted communications. You can change preferences at any time. Opting out doesn't affect service-related communications we're required to send."
+    }
+  ],
+  "tab7": [
+    {
+      "id": 1,
+      "title": "What are your business hours?",
+      "description": "Customer support operates 24/7 year-round for urgent matters. Operational departments follow standard business hours (Monday-Friday, 8am-6pm local time) with emergency support available. Online services are accessible anytime. Response times may vary outside core hours for non-urgent inquiries. Our website lists location-specific hours for facilities. Holiday schedules are posted in advance with arrangements made for time-sensitive operations during closures."
+    },
+    {
+      "id": 2,
+      "title": "How can I contact your support team?",
+      "description": "Reach us by phone at +1-800-LOGISTIC, email at support@logistics.com, or through live chat on our platforms. For complex issues, we can schedule calls or video conferences. In-person visits are by appointment at our service centers. Social media channels also provide support options. Our interactive voice system routes calls efficiently. Response time targets vary by channel, with urgent issues prioritized across all contact methods."
+    },
+    {
+      "id": 3,
+      "title": "Do you have a mobile app?",
+      "description": "Yes, we offer iOS and Android apps with full service functionality. Features include shipment tracking, document management, and customer support. The app provides push notifications for shipment updates and service alerts. Mobile-optimized tools simplify common tasks. Biometric login ensures secure access. Regular updates add new features and improvements. The app integrates with device features like cameras for document scanning and location services for enhanced tracking."
+    },
+    {
+      "id": 4,
+      "title": "What languages does your support team speak?",
+      "description": "Our support team provides service in English, Spanish, French, German, and Mandarin as standard options. Additional language assistance can be arranged through our translation services. Website and app content is available in multiple languages. Documentation can be provided in requested languages with advance notice. We're continuously expanding language capabilities to better serve our global customer base across different regions."
+    },
+    {
+      "id": 5,
+      "title": "Do you offer on-site support?",
+      "description": "On-site support is available for enterprise clients and special projects, subject to location feasibility. Services include operational reviews, system implementations, and training sessions. Availability depends on geographic coverage and resource scheduling. We conduct needs assessments to determine appropriate on-site support levels. Some locations offer dedicated client service representatives. Travel costs may apply for specialized on-site services outside standard coverage areas."
+    },
+    {
+      "id": 6,
+      "title": "Can I schedule a callback from your team?",
+      "description": "Callback scheduling is available through our website, app, or by phone. You can select preferred time windows and specify the contact number. We confirm appointments by email or SMS. Callback requests received outside business hours are scheduled for the next available slot. Urgent callbacks can be prioritized when needed. Our system sends reminders before scheduled callbacks to minimize missed connections."
+    }
+  ]
+}

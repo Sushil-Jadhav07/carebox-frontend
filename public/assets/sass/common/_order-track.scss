@@ -1,0 +1,471 @@
+/*--------------------------------------------------------------
+  Order Track Search Component
+----------------------------------------------------------------*/
+.cs-order-track-search {
+  background: #f5f5f5;
+  padding: 60px 0;
+  // min-height: 400px;
+}
+
+.cs-search-widget {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  margin: 0 auto;
+}
+
+.cs-tab-navigation {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 25px;
+  gap: 15px;
+    
+  .cs-tab-btn {
+    padding: 15px 30px;
+    border: none;
+    background: $gray_sc;
+    font-size: 16px;
+    font-weight: 600;
+    color: $secondary;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-right: 2px;
+    
+    &:last-child {
+      margin-right: 0;
+    }
+    
+    &.active {
+      background: $accent;
+      color: $white;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba($accent, 0.3);
+    }
+    
+    &:hover:not(.active) {
+      background: darken($gray_sc, 5%);
+      color: $black;
+    }
+  }
+}
+
+// .cs-track-content removed - not needed
+
+.cs-radio-group {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 25px;
+  
+  label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    
+    input[type="radio"] {
+      margin-right: 8px;
+      accent-color: #e67e22;
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+.cs-search-input-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 15px;
+  
+  input {
+    flex: 1;
+    padding: 15px 20px;
+    border: 2px solid $border;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: $white;
+    font-family: var(--body-font-family);
+    
+    &:focus {
+      border-color: $accent;
+      // box-shadow: 0 0 0 3px rgba($accent, 0.1);
+    }
+    
+    &::placeholder {
+      color: $ternary;
+      font-style: italic;
+    }
+  }
+  
+  .cs-track-btn {
+    padding: 15px 30px;
+    background-color: $accent;
+    color: $white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 140px;
+    font-family: var(--heading-font-family);
+    
+    &:hover:not(:disabled) {
+      background-color: darken($accent, 10%);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba($accent, 0.3);
+    }
+    
+    &:disabled {
+      background-color: $ternary;
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+  }
+}
+
+.cs-multiple-tracking {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #e67e22;
+  font-size: 13px;
+  cursor: pointer;
+  justify-content: flex-end;
+  margin-top: 10px;
+  
+  span {
+    &:first-child {
+      font-size: 14px;
+      font-weight: bold;
+      color: #e67e22;
+    }
+  }
+}
+
+.cs-branch-content {
+  p {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    margin-top: 50px;
+  }
+}
+
+/* Main Timeline Styles */
+.cs-logi-order-track {
+  border-top: 1px dashed $accent;
+  padding-top: 2.5rem;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
+  position: relative;
+  margin: 30px 0;
+
+  &-step {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 0 15px;
+    min-width: 120px;
+
+    &:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 40px;
+      left: calc(50% + 20px);
+      right: -130px;
+      height: 4px;
+      background: #4CAF50;
+      z-index: 1;
+    }
+
+    // Last step should NOT have a line after it
+    &:last-child::after {
+      display: none;
+    }
+  }
+
+  &-status {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 15px;
+
+    &-dot {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      position: relative;
+      border: 3px solid $white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+      &.completed {
+        background: #4CAF50;
+        color: $white;
+      }
+
+      &.pending {
+        background: #E0E0E0;
+        color: #9E9E9E;
+      }
+
+      .cs-status-icon {
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .cs-checkmark {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        background: #4CAF50;
+        color: $white;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 8px;
+        font-weight: bold;
+        border: 2px solid $white;
+      }
+    }
+
+    &-line {
+      display: none;
+    }
+  }
+
+  &-text {
+    text-align: center;
+    max-width: 120px;
+
+    &-stat {
+      font-size: 14px;
+      color: $black;
+      font-weight: 600;
+      margin: 0 0 4px 0;
+      line-height: 1.2;
+      padding: 0;
+    }
+
+    &-date {
+      font-size: 12px;
+      color: $secondary;
+      margin: 0 0 2px 0;
+      display: block;
+    }
+
+    &-time {
+      font-size: 12px;
+      color: $secondary;
+      margin: 0 0 2px 0;
+      display: block;
+    }
+
+    &-location {
+      font-size: 12px;
+      color: #2196F3;
+      margin: 0;
+      display: block;
+      font-weight: 500;
+    }
+  }
+}
+
+/* Search Results Timeline */
+.cs-order-track-results {
+  background: #f5f5f5;
+  padding: 40px 0;
+  
+  .cs-order-track-results-content {
+    background: $white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    
+    .cs-tracking-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #E0E0E0;
+      
+      .cs-tracking-info {
+        .cs-tracking-label {
+          font-size: 14px;
+          color: $secondary;
+          margin-bottom: 5px;
+        }
+        
+        .cs-tracking-number {
+          font-size: 18px;
+          font-weight: 600;
+          color: $black;
+        }
+      }
+      
+      .cs-status-badge {
+        display: flex;
+        align-items: center;
+        background: #E3F2FD;
+        color: #1976D2;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        
+        .cs-status-dot {
+          width: 8px;
+          height: 8px;
+          background: #1976D2;
+          border-radius: 50%;
+          margin-right: 8px;
+        }
+      }
+    }
+    
+    .cs-tracking-summary {
+      display: flex;
+      gap: 30px;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #E0E0E0;
+      
+      .cs-summary-item {
+        flex: 1;
+        
+        .cs-summary-label {
+          font-size: 14px;
+          color: $secondary;
+          margin-bottom: 5px;
+        }
+        
+        .cs-summary-value {
+          font-size: 16px;
+          font-weight: 600;
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+// Responsive Design
+@media screen and (max-width: 768px) {
+  .cs-search-widget {
+    padding: 20px;
+  }
+  
+  .cs-tab-navigation {
+    flex-direction: column;
+    gap: 5px;
+    
+    .cs-tab-btn {
+      margin-right: 0;
+      font-size: 14px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      
+      &.active {
+        transform: none;
+        box-shadow: 0 2px 8px rgba($accent, 0.3);
+      }
+    }
+  }
+  
+  .cs-radio-group {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .cs-search-input-group {
+    flex-direction: column;
+    gap: 15px;
+    
+    input {
+      font-size: 16px; // Prevent zoom on iOS
+    }
+    
+    .cs-track-btn {
+      width: 100%;
+      padding: 15px 20px;
+    }
+  }
+  
+  .cs-order-track-results {
+    padding: 20px 0;
+    
+    .cs-order-track-results-content {
+      padding: 20px;
+      
+      .cs-tracking-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        
+        .cs-status-badge {
+          align-self: flex-start;
+        }
+      }
+      
+      .cs-tracking-summary {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  }
+  
+  // Horizontal timeline mobile adjustments
+  .cs-logi-order-track {
+    flex-direction: column;
+    align-items: center;
+    
+    &-step {
+      flex: none;
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 0;
+      
+      &:not(:last-child) {
+        &::after {
+          display: none; // Hide horizontal lines on mobile
+        }
+      }
+    }
+    
+    &-status {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    &-text {
+      text-align: center;
+      
+      &-stat {
+        font-size: 14px;
+      }
+      
+      &-sub {
+        font-size: 12px;
+      }
+    }
+  }
+}

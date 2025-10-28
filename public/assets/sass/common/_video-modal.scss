@@ -1,0 +1,116 @@
+/*--------------------------------------------------------------
+  11. Video Modal
+----------------------------------------------------------------*/
+.cs-full-width-video-wrapper {
+  .cs-full-width-video-in {
+    .cs-video-content-in {
+      height: 760px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .video-slider {
+      position: relative;
+      .ps-scrollbar-navigation {
+        position: absolute;
+        bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      .swiper-slide {
+        position: relative;
+      }
+    }
+    .swiper-scrollbar {
+      background: rgba($color: #fff, $alpha: 0.2);
+      height: 5px;
+      width: 315px;
+      position: initial;
+      .swiper-scrollbar-drag {
+        height: 5px;
+        background: $white;
+      }
+    }
+    .ps-scrollbar-navigation {
+      .ps-scrollbar-navigation-in {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+      }
+      .cs-arrow-left,
+      .cs-arrow-right {
+        background: rgba($color: #fff, $alpha: 0.2);
+        &:hover {
+          background: $white;
+          transition: all 0.4s ease-in-out;
+          i {
+            color: $black;
+            transition: all 0.4s ease-in-out;
+          }
+        }
+      }
+      i {
+        color: $white;
+      }
+    }
+  }
+}
+
+.cs-video-wrapper {
+  position: relative;
+  width: 1920px;
+  height: 760px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cs_video_block {
+  cursor: pointer;
+}
+.cs-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* End video section */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  // padding: 10px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: none;
+  border: none;
+  font-size: 40px;
+  width: 45px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 0;
+  background-color: #d40511;
+}

@@ -1,0 +1,75 @@
+[
+    {
+      "title": "Home",
+      "path": "/",
+      "subItems": [
+        {
+          "title": "Air Freight",
+          "path": "/"
+        },
+        {
+          "title": "Land Freight",
+          "path": "/land-freight"
+        },
+        {
+          "title": "Ocean Cargo",
+          "path": "/ocean-cargo?h=style3"
+        }
+      ]
+    },
+    {
+      "title": "Pages",
+      "path": "#",
+      "subItems": [
+        {
+          "title": "About Us",
+          "path": "/about"
+        },
+        {
+          "title": "Case Study",
+          "path": "/case-study"
+        },
+        {
+          "title": "Team",
+          "path": "/team"
+        },
+        {
+          "title": "FAQ",
+          "path": "/faq"
+        },
+        {
+          "title": "Pricing",
+          "path": "/pricing"
+        },
+        {
+          "title": "404",
+          "path": "/error-page"
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "path": "/services",
+      "subItems": []
+    },
+    {
+      "title": "Blog",
+      "path": "/blog",
+      "subItems": [
+        {
+          "title": "Blog",
+          "path": "/blog"
+        },
+        {
+          "title": "Blog Style 2",
+          "path": "/blog-standard"
+        }
+      ]
+    },
+    {
+      "title": "Contact",
+      "path": "/contact-us",
+      "subItems": []
+    }
+  ]
+  

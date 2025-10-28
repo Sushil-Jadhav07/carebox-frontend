@@ -1,0 +1,41 @@
+// components/Marquee.module.scss
+.marqueeContainer {
+    background-color: #f5f5f5;
+    padding: 1rem 0;
+    margin: 2rem 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .marquee {
+    display: flex;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .marqueeContent {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    padding: 0 2rem;
+    
+    @media (max-width: 768px) {
+      font-size: 1.8rem;
+    }
+    
+    @media (max-width: 480px) {
+      font-size: 1.2rem;
+      padding: 0 1rem;
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

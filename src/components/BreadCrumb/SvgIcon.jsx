@@ -1,0 +1,46 @@
+import React from "react";
+
+const SvgIcon = () => {
+  return (
+    <svg
+      width="33"
+      height="19"
+      viewBox="0 0 33 19"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clipPath="url(#clip0_4589_11874)">
+        <path
+          d="M0.931641 18.682L15.7481 9.72777L0.931641 0.773499V18.682Z"
+          fill="#D40511"
+        />
+        <path
+          opacity="0.4"
+          d="M0.931641 9.72777H15.7481L0.931641 0.773499V9.72777Z"
+          fill="white"
+        />
+        <path
+          d="M17.25 18.6821L32.0664 9.72783L17.25 0.77356V18.6821Z"
+          fill="#D40511"
+        />
+        <path
+          opacity="0.4"
+          d="M17.25 9.72783H32.0664L17.25 0.77356V9.72783Z"
+          fill="white"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_4589_11874">
+          <rect
+            width="31.1351"
+            height="18"
+            fill="white"
+            transform="translate(0.931641 0.727783)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+
+export default SvgIcon;

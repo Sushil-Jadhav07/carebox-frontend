@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "text": "Always reliable and on time! Their exceptional service has streamlined our operations. Highly recommended!",
+    "name": "Jane Doe",
+    "company": "ABC Manufacturing",
+    "image": "/assets/img/testi-user01.jpg"
+  },
+  {
+    "id": 2,
+    "text": "Punctual and dependable! Their outstanding service has greatly improved our operations. Highly recommended!",
+    "name": "Alexander Martinez",
+    "company": "Director Xyz",
+    "image": "/assets/img/testi-user02.jpg"
+  },
+  {
+    "id": 3,
+    "text": "Efficient and trustworthy! Their seamless service has helped optimize our deliveries. Would definitely recommend!",
+    "name": "Jonathan Evans",
+    "company": "Xyz Manufacturing",
+    "image": "/assets/img/testi-user03.jpg"
+  },
+  {
+    "id": 4,
+    "text": "Consistently reliable! Their attention to detail and prompt service have made a significant impact. Highly recommend them!",
+    "name": "Benjamin Chen",
+    "company": "Expo Manufacturing",
+    "image": "/assets/img/testi-user04.png"
+  }
+]

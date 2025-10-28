@@ -1,0 +1,515 @@
+[
+    {
+        "id": 1,
+        "caseId": 1,
+        "title": "Swift Move Logistics",
+        "image": "/assets/img/case-details-main.jpg",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "content": [
+            {
+                "heading": "Understand Your Business Needs",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport, the regions you serve, and the level of service you expect. A logistics partner should be able to meet your unique needs and provide tailored solutions."
+            },
+            {
+                "heading": "Project Core Features We Included",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+            }
+        ],
+        "quote": "“Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales.”",
+        "projectimg": {
+            "title": "Final Overview of The Project",
+            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "images": [
+                "/assets/img/case-details-img2.jpg",
+                "/assets/img/case-details-img-1.jpg"
+            ]
+        },
+        "projectInfo": {
+            "clientName": "Alexander Grahambel",
+            "category": "Air Freight Services",
+            "timeline": "1st Jan - 31 Aug. 8 Months"
+        },
+        "phoneCTA": {
+            "image": "/assets/img/case-details-widget-img.jpg",
+            "phoneNumber": "+1-416-8241228"
+        },
+        "cards": [
+            {
+                "icon": "/assets/img/icon1.svg",
+                "title": "Comprehensive Supply Chain Management",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            },
+            {
+                "icon": "/assets/img/icon2.svg",
+                "title": "Efficient Transportation Solutions",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            }
+        ],
+        "faqItems": [
+            {
+                "title": "What services does your logistics company provide?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            },
+            {
+                "title": "How do you ensure the safety and security of goods during transportation?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "caseId": 2,
+        "title": " Move Logistics",
+        "image": "/assets/img/case-details-main.jpg",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "content": [
+            {
+                "heading": "Understand Your Business Needs",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport, the regions you serve, and the level of service you expect. A logistics partner should be able to meet your unique needs and provide tailored solutions."
+            },
+            {
+                "heading": "Project Core Features We Included",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+            }
+        ],
+        "quote": "“Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales.”",
+        "projectimg": {
+            "title": "Final Overview of The Project",
+            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "images": [
+                "/assets/img/case-details-img2.jpg",
+                "/assets/img/case-details-img-1.jpg"
+            ]
+        },
+        "projectInfo": {
+            "clientName": "Alexander Grahambel",
+            "category": "Air Freight Services",
+            "timeline": "1st Jan - 31 Aug. 8 Months"
+        },
+        "phoneCTA": {
+            "image": "/assets/img/case-details-widget-img.jpg",
+            "phoneNumber": "+1-416-8241228"
+        },
+        "cards": [
+            {
+                "icon": "/assets/img/icon1.svg",
+                "title": "Comprehensive Supply Chain Management",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            },
+            {
+                "icon": "/assets/img/icon2.svg",
+                "title": "Efficient Transportation Solutions",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            }
+        ],
+        "faqItems": [
+            {
+                "title": "What services does your logistics company provide?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            },
+            {
+                "title": "How do you ensure the safety and security of goods during transportation?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "caseId": 3,
+        "title": "Swift Move Logistics",
+        "image": "/assets/img/case-details-main.jpg",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "content": [
+            {
+                "heading": "Understand Your Business Needs",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport, the regions you serve, and the level of service you expect. A logistics partner should be able to meet your unique needs and provide tailored solutions."
+            },
+            {
+                "heading": "Project Core Features We Included",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+            }
+        ],
+        "quote": "“Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales.”",
+        "projectimg": {
+            "title": "Final Overview of The Project",
+            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "images": [
+                "/assets/img/case-details-img2.jpg",
+                "/assets/img/case-details-img-1.jpg"
+            ]
+        },
+        "projectInfo": {
+            "clientName": "Alexander Grahambel",
+            "category": "Air Freight Services",
+            "timeline": "1st Jan - 31 Aug. 8 Months"
+        },
+        "phoneCTA": {
+            "image": "/assets/img/case-details-widget-img.jpg",
+            "phoneNumber": "+1-416-8241228"
+        },
+        "cards": [
+            {
+                "icon": "/assets/img/icon1.svg",
+                "title": "Comprehensive Supply Chain Management",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            },
+            {
+                "icon": "/assets/img/icon2.svg",
+                "title": "Efficient Transportation Solutions",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            }
+        ],
+        "faqItems": [
+            {
+                "title": "What services does your logistics company provide?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            },
+            {
+                "title": "How do you ensure the safety and security of goods during transportation?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "caseId": 4,
+        "title": "Swift Move Logistics",
+        "image": "/assets/img/case-details-main.jpg",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "content": [
+            {
+                "heading": "Understand Your Business Needs",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport, the regions you serve, and the level of service you expect. A logistics partner should be able to meet your unique needs and provide tailored solutions."
+            },
+            {
+                "heading": "Project Core Features We Included",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+            }
+        ],
+        "quote": "“Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales.”",
+        "projectimg": {
+            "title": "Final Overview of The Project",
+            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "images": [
+                "/assets/img/case-details-img2.jpg",
+                "/assets/img/case-details-img-1.jpg"
+            ]
+        },
+        "projectInfo": {
+            "clientName": "Alexander Grahambel",
+            "category": "Air Freight Services",
+            "timeline": "1st Jan - 31 Aug. 8 Months"
+        },
+        "phoneCTA": {
+            "image": "/assets/img/case-details-widget-img.jpg",
+            "phoneNumber": "+1-416-8241228"
+        },
+        "cards": [
+            {
+                "icon": "/assets/img/icon1.svg",
+                "title": "Comprehensive Supply Chain Management",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            },
+            {
+                "icon": "/assets/img/icon2.svg",
+                "title": "Efficient Transportation Solutions",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            }
+        ],
+        "faqItems": [
+            {
+                "title": "What services does your logistics company provide?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            },
+            {
+                "title": "How do you ensure the safety and security of goods during transportation?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "caseId": 5,
+        "title": "Swift Move Logistics",
+        "image": "/assets/img/case-details-main.jpg",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "content": [
+            {
+                "heading": "Understand Your Business Needs",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport, the regions you serve, and the level of service you expect. A logistics partner should be able to meet your unique needs and provide tailored solutions."
+            },
+            {
+                "heading": "Project Core Features We Included",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+            }
+        ],
+        "quote": "“Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales.”",
+        "projectimg": {
+            "title": "Final Overview of The Project",
+            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "images": [
+                "/assets/img/case-details-img2.jpg",
+                "/assets/img/case-details-img-1.jpg"
+            ]
+        },
+        "projectInfo": {
+            "clientName": "Alexander Grahambel",
+            "category": "Air Freight Services",
+            "timeline": "1st Jan - 31 Aug. 8 Months"
+        },
+        "phoneCTA": {
+            "image": "/assets/img/case-details-widget-img.jpg",
+            "phoneNumber": "+1-416-8241228"
+        },
+        "cards": [
+            {
+                "icon": "/assets/img/icon1.svg",
+                "title": "Comprehensive Supply Chain Management",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            },
+            {
+                "icon": "/assets/img/icon2.svg",
+                "title": "Efficient Transportation Solutions",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            }
+        ],
+        "faqItems": [
+            {
+                "title": "What services does your logistics company provide?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            },
+            {
+                "title": "How do you ensure the safety and security of goods during transportation?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "caseId": 6,
+        "title": "Swift Move Logistics",
+        "image": "/assets/img/case-details-main.jpg",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "content": [
+            {
+                "heading": "Understand Your Business Needs",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport, the regions you serve, and the level of service you expect. A logistics partner should be able to meet your unique needs and provide tailored solutions."
+            },
+            {
+                "heading": "Project Core Features We Included",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+            }
+        ],
+        "quote": "“Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales.”",
+        "projectimg": {
+            "title": "Final Overview of The Project",
+            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "images": [
+                "/assets/img/case-details-img2.jpg",
+                "/assets/img/case-details-img-1.jpg"
+            ]
+        },
+        "projectInfo": {
+            "clientName": "Alexander Grahambel",
+            "category": "Air Freight Services",
+            "timeline": "1st Jan - 31 Aug. 8 Months"
+        },
+        "phoneCTA": {
+            "image": "/assets/img/case-details-widget-img.jpg",
+            "phoneNumber": "+1-416-8241228"
+        },
+        "cards": [
+            {
+                "icon": "/assets/img/icon1.svg",
+                "title": "Comprehensive Supply Chain Management",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            },
+            {
+                "icon": "/assets/img/icon2.svg",
+                "title": "Efficient Transportation Solutions",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            }
+        ],
+        "faqItems": [
+            {
+                "title": "What services does your logistics company provide?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            },
+            {
+                "title": "How do you ensure the safety and security of goods during transportation?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "caseId": 7,
+        "title": "Swift Move Logistics",
+        "image": "/assets/img/case-details-main.jpg",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "content": [
+            {
+                "heading": "Understand Your Business Needs",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport, the regions you serve, and the level of service you expect. A logistics partner should be able to meet your unique needs and provide tailored solutions."
+            },
+            {
+                "heading": "Project Core Features We Included",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+            }
+        ],
+        "quote": "“Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales.”",
+        "projectimg": {
+            "title": "Final Overview of The Project",
+            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "images": [
+                "/assets/img/case-details-img2.jpg",
+                "/assets/img/case-details-img-1.jpg"
+            ]
+        },
+        "projectInfo": {
+            "clientName": "Alexander Grahambel",
+            "category": "Air Freight Services",
+            "timeline": "1st Jan - 31 Aug. 8 Months"
+        },
+        "phoneCTA": {
+            "image": "/assets/img/case-details-widget-img.jpg",
+            "phoneNumber": "+1-416-8241228"
+        },
+        "cards": [
+            {
+                "icon": "/assets/img/icon1.svg",
+                "title": "Comprehensive Supply Chain Management",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            },
+            {
+                "icon": "/assets/img/icon2.svg",
+                "title": "Efficient Transportation Solutions",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            }
+        ],
+        "faqItems": [
+            {
+                "title": "What services does your logistics company provide?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            },
+            {
+                "title": "How do you ensure the safety and security of goods during transportation?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "caseId": 8,
+        "title": "Swift Move Logistics",
+        "image": "/assets/img/case-details-main.jpg",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "content": [
+            {
+                "heading": "Understand Your Business Needs",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport, the regions you serve, and the level of service you expect. A logistics partner should be able to meet your unique needs and provide tailored solutions."
+            },
+            {
+                "heading": "Project Core Features We Included",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+            }
+        ],
+        "quote": "“Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales.”",
+        "projectimg": {
+            "title": "Final Overview of The Project",
+            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "images": [
+                "/assets/img/case-details-img2.jpg",
+                "/assets/img/case-details-img-1.jpg"
+            ]
+        },
+        "projectInfo": {
+            "clientName": "Alexander Grahambel",
+            "category": "Air Freight Services",
+            "timeline": "1st Jan - 31 Aug. 8 Months"
+        },
+        "phoneCTA": {
+            "image": "/assets/img/case-details-widget-img.jpg",
+            "phoneNumber": "+1-416-8241228"
+        },
+        "cards": [
+            {
+                "icon": "/assets/img/icon1.svg",
+                "title": "Comprehensive Supply Chain Management",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            },
+            {
+                "icon": "/assets/img/icon2.svg",
+                "title": "Efficient Transportation Solutions",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            }
+        ],
+        "faqItems": [
+            {
+                "title": "What services does your logistics company provide?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            },
+            {
+                "title": "How do you ensure the safety and security of goods during transportation?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "caseId": 9,
+        "title": "Swift Move Logistics",
+        "image": "/assets/img/case-details-main.jpg",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "content": [
+            {
+                "heading": "Understand Your Business Needs",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport, the regions you serve, and the level of service you expect. A logistics partner should be able to meet your unique needs and provide tailored solutions."
+            },
+            {
+                "heading": "Project Core Features We Included",
+                "text": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+            }
+        ],
+        "quote": "“Reliability is a key factor when selecting a logistics partner. Late deliveries can damage your reputation and lead to lost sales.”",
+        "projectimg": {
+            "title": "Final Overview of The Project",
+            "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+            "images": [
+                "/assets/img/case-details-img2.jpg",
+                "/assets/img/case-details-img-1.jpg"
+            ]
+        },
+        "projectInfo": {
+            "clientName": "Alexander Grahambel",
+            "category": "Air Freight Services",
+            "timeline": "1st Jan - 31 Aug. 8 Months"
+        },
+        "phoneCTA": {
+            "image": "/assets/img/case-details-widget-img.jpg",
+            "phoneNumber": "+1-416-8241228"
+        },
+        "cards": [
+            {
+                "icon": "/assets/img/icon1.svg",
+                "title": "Comprehensive Supply Chain Management",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            },
+            {
+                "icon": "/assets/img/icon2.svg",
+                "title": "Efficient Transportation Solutions",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+            }
+        ],
+        "faqItems": [
+            {
+                "title": "What services does your logistics company provide?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            },
+            {
+                "title": "How do you ensure the safety and security of goods during transportation?",
+                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text..."
+            }
+        ]
+    }
+]

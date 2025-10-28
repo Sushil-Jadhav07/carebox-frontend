@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "flaticon-airplane",
+    "title": "Freight Transportation",
+    "description": "Flexible and efficient road transportation across local and international routes."
+  },
+  {
+    "id": 2,
+    "icon": "flaticon-logistics",
+    "title": "Warehousing & Distribution",
+    "description": "Flexible and efficient road transportation across local and international routes."
+  },
+  {
+    "id": 3,
+    "icon": "flaticon-supply-chain",
+    "title": "Supply Chain Management",
+    "description": "Flexible and efficient road transportation across local and international routes."
+  },
+  {
+    "id": 4,
+    "icon": "flaticon-shipping",
+    "title": "E-Commerce Solutions",
+    "description": "Flexible and efficient road transportation across local and international routes."
+  }
+]

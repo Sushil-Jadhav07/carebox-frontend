@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Home",
+    "path": "/",
+    "subItems": []
+  },
+  {
+    "title": "About Us",
+    "path": "/about",
+    "subItems": []
+  },
+  {
+    "title": "Services",
+    "path": "/",
+    "subItems": [
+      {
+        "title": "Domestic",
+        "path": "/services"
+      },
+      {
+        "title": "Local Prime Courier",
+        "path": "/local-prime-courier"
+      }
+    ]
+  },
+  {
+    "title": "Servicibility",
+    "path": "/servicibility",
+    "subItems": []
+  },
+  {
+    "title": "Contact",
+    "path": "/contact-us",
+    "subItems": []
+  }
+]

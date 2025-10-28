@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "serviceId": 1,
+    "title": "Freight Transportation",
+    "paragraphs": [
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+    ],
+    "imageSrc": "/assets/img/service-single.jpg",
+    "sections": [
+      {
+        "title": "Overview of Services",
+        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+      },
+      {
+        "title": "Service Key Features",
+        "content": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+      }
+    ],
+    "FrequentlyQuestion": {
+      "title": "Frequently Asked Question",
+      "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Comprehensive Supply Chain Management",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      },
+      {
+        "id": 2,
+        "title": "Efficient Transportation Solutions",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      },
+      {
+        "id": 3,
+        "title": "Comprehensive Supply Chain Management",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      },
+      {
+        "id": 4,
+        "title": "Efficient Transportation Solutions",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "serviceId": 2,
+    "title": "Warehousing & Distribution",
+    "paragraphs": [
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+    ],
+    "imageSrc": "/assets/img/service-single.jpg",
+    "sections": [
+      {
+        "title": "Overview of Services",
+        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+      },
+      {
+        "title": "Service Key Features",
+        "content": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+      }
+    ],
+    "FrequentlyQuestion": {
+      "title": "Frequently Asked Question",
+      "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Comprehensive Supply Chain Management",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      },
+      {
+        "id": 2,
+        "title": "Efficient Transportation Solutions",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      },
+      {
+        "id": 3,
+        "title": "Comprehensive Supply Chain Management",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      },
+      {
+        "id": 4,
+        "title": "Efficient Transportation Solutions",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "serviceId": 3,
+    "title": "Supply Chain Management",
+    "paragraphs": [
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+    ],
+    "imageSrc": "/assets/img/service-single.jpg",
+    "sections": [
+      {
+        "title": "Overview of Services",
+        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+      },
+      {
+        "title": "Service Key Features",
+        "content": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+      }
+    ],
+    "FrequentlyQuestion": {
+      "title": "Frequently Asked Question",
+      "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Comprehensive Supply Chain Management",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      },
+      {
+        "id": 2,
+        "title": "Efficient Transportation Solutions",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      },
+      {
+        "id": 3,
+        "title": "Comprehensive Supply Chain Management",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      },
+      {
+        "id": 4,
+        "title": "Efficient Transportation Solutions",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "serviceId": 4,
+    "title": "E-Commerce Solutions",
+    "paragraphs": [
+      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+    ],
+    "imageSrc": "/assets/img/service-single.jpg",
+    "sections": [
+      {
+        "title": "Overview of Services",
+        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+      },
+      {
+        "title": "Service Key Features",
+        "content": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+      }
+    ],
+    "FrequentlyQuestion": {
+      "title": "Frequently Asked Question",
+      "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Comprehensive Supply Chain Management",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      },
+      {
+        "id": 2,
+        "title": "Efficient Transportation Solutions",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      },
+      {
+        "id": 3,
+        "title": "Comprehensive Supply Chain Management",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      },
+      {
+        "id": 4,
+        "title": "Efficient Transportation Solutions",
+        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+      }
+    ]
+  }
+]

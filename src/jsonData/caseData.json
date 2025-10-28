@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/img/case/case-img1.jpg",
+        "alt": "LogiHub",
+        "title": "Swift Move Logistics",
+        "description": "Routing"
+    },
+    {
+        "id": 2,
+        "image": "/assets/img/case/case-img2.jpg",
+        "alt": "LogiHub",
+        "title": "RouteOptimizer Pro Move",
+        "description": "Routing"
+    },
+    {
+        "id": 3,
+        "image": "/assets/img/case/case-img3.jpg",
+        "alt": "LogiHub",
+        "title": "Swift Move Logistics",
+        "description": "Routing"
+    },
+    {
+        "id": 4,
+        "image": "/assets/img/case/case-img4.jpg",
+        "alt": "LogiHub",
+        "title": "RouteOptimizer Pro",
+        "description": "Routing"
+    },
+    {
+        "id": 5,
+        "image": "/assets/img/case/case-img5.jpg",
+        "alt": "LogiHub",
+        "title": "Swift Move Logistics ",
+        "description": "Routing"
+    },
+    {
+        "id": 6,
+        "image": "/assets/img/case/case-img6.jpg",
+        "alt": "LogiHub",
+        "title": "RouteOptimizer Pro",
+        "description": "Routing"
+    },
+    {
+        "id": 7,
+        "image": "/assets/img/case/case-img7.jpg",
+        "alt": "LogiHub",
+        "title": "RouteOptimizer Pro",
+        "description": "Routing"
+    },
+    {
+        "id": 8,
+        "image": "/assets/img/case/case-img8.jpg",
+        "alt": "LogiHub",
+        "title": "RouteOptimizer Pro",
+        "description": "Routing"
+    },
+    {
+        "id": 9,
+        "image": "/assets/img/case/case-img9.jpg",
+        "alt": "LogiHub",
+        "title": "RouteOptimizer Pro",
+        "description": "Routing"
+    }
+]

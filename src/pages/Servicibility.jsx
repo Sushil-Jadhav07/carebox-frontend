@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaMapMarkerAlt, FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 import BreadCrumb from "@/components/BreadCrumb/BreadCrumb";
+import { pinCodeList } from "@/jsonData/pinCodeData";
 
 const Servicibility = () => {
   const [pincode, setPincode] = useState("");
@@ -8,11 +9,7 @@ const Servicibility = () => {
   const [result, setResult] = useState(null);
   const [error, setError] = useState("");
 
-  // Sample servicibility data - replace with actual API data
-  const serviciblePincodes = [
-    "110001", "110002", "110003", "400001", "400002", "560001", "560002",
-    "600001", "600002", "700001", "700002", "500001", "500002", "380001"
-  ];
+  // Using real pin code list from jsonData
 
   const handleCheckPincode = async () => {
     if (!pincode.trim()) {
@@ -29,19 +26,38 @@ const Servicibility = () => {
     setError("");
     setResult(null);
 
-    // Simulate API call
-    setTimeout(() => {
-      const isServicible = serviciblePincodes.includes(pincode);
-      setResult({
-        pincode: pincode,
-        isServicible: isServicible,
-        message: isServicible 
-          ? "Great! We provide service in this area." 
-          : "Sorry, we don't provide service in this area yet.",
-        deliveryTime: isServicible ? "1-2 business days" : null
-      });
+    // Local lookup in big pin code dataset
+    try {
+      const match = pinCodeList.find((item) => String(item.Pin).padStart(6, "0") === pincode);
+
+      if (match) {
+        setResult({
+          pincode: pincode,
+          isServicible: true,
+          message: "Great! We provide service in this area.",
+          details: {
+            facilityCity: match.FacilityCity,
+            facilityState: match.FacilityState,
+            dispatchCenter: match.DispatchCenter,
+            originCenter: match.OriginCenter,
+            oda: match.ODA,
+            zone: match.Zone,
+            hub: match.hub || null
+          }
+        });
+      } else {
+        setResult({
+          pincode: pincode,
+          isServicible: false,
+          message: "Sorry, we don't provide service in this area yet.",
+          details: null
+        });
+      }
+    } catch (e) {
+      setError("Something went wrong while checking the pincode.");
+    } finally {
       setIsChecking(false);
-    }, 1500);
+    }
   };
 
   const handleKeyPress = (e) => {
@@ -110,10 +126,33 @@ const Servicibility = () => {
                       <div className="cs-result-content">
                         <h4>Pincode: {result.pincode}</h4>
                         <p className="cs-result-message">{result.message}</p>
-                        {result.deliveryTime && (
-                          <p className="cs-delivery-time">
-                            Expected delivery: <strong>{result.deliveryTime}</strong>
-                          </p>
+                        {result.details && (
+                          <div className="cs-result-details">
+                            <table className="cs-result-table">
+                              <thead>
+                                <tr>
+                                  <th>Facility City</th>
+                                  <th>Facility State</th>
+                                  <th>Dispatch Center</th>
+                                  <th>Origin Center</th>
+                                  <th>ODA</th>
+                                  <th>Zone</th>
+                                  {result.details.hub && <th>Hub</th>}
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>{result.details.facilityCity}</td>
+                                  <td>{result.details.facilityState}</td>
+                                  <td>{result.details.dispatchCenter}</td>
+                                  <td>{result.details.originCenter}</td>
+                                  <td>{result.details.oda}</td>
+                                  <td>{result.details.zone}</td>
+                                  {result.details.hub && <td>{result.details.hub}</td>}
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
                         )}
                       </div>
                     </div>

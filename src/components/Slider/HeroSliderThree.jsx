@@ -5,6 +5,7 @@ import { Navigation, Autoplay, Parallax } from "swiper/modules";
 import { gsap, useGSAP, SplitType } from "@/lib/gsapConfig.JS";
 import { Link, useNavigate } from "react-router-dom";
 import { MdLocalShipping, MdLocationOn } from "react-icons/md";
+import { pinCodeList } from "@/jsonData/pinCodeData";
 
 const slides = [
   {
@@ -107,49 +108,97 @@ const HeroSliderThree = () => {
     }
   };
 
-  // Sample tracking data - replace with actual API data
-  const sampleTrackingData = [
-    {
-      id: 1,
-      status: "Order Created",
-      date: new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }),
-      time: new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true }),
-      location: "Delhi",
-      isCompleted: true,
-    },
-    {
-      id: 2,
-      status: "Order Shipped",
-      date: new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }),
-      time: new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true }),
-      location: "Delhi Hub",
-      isCompleted: true,
-    },
-    {
-      id: 3,
-      status: "Order In Transit",
-      date: new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }),
-      time: new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true }),
-      location: "Mumbai Hub",
-      isCompleted: true,
-    },
-    {
-      id: 4,
-      status: "Order Delivery",
-      date: "Expected",
-      time: "Tomorrow",
-      location: "Mumbai",
-      isCompleted: false,
-    },
-  ];
+  const fetchOrderStatus = async (awbNumber) => {
+    try {
+      const response = await fetch(`https://carebox-backend.onrender.com/api/order/fetchOrderStatusByAWB?awb_no=${encodeURIComponent(awbNumber)}`);
+      
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || `HTTP ${response.status}`);
+      }
+      
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      throw error;
+    }
+  };
 
-  // Sample serviceable pincodes - replace with actual API data
-  const serviceablePincodes = [
-    "110001", "110002", "110003", "400001", "400002", "560001", "560002",
-    "600001", "600002", "700001", "700002", "500001", "500002", "380001"
-  ];
+  const transformApiData = (apiData) => {
+    // Use only orderStatuses array, ignore packageStatus
+    const { orderStatuses = [] } = apiData;
+    
+    // Define all possible status steps in order
+    const allPossibleStatuses = [
+      { key: 'order created', label: 'Order Created' },
+      { key: 'order shipped', label: 'Order Shipped' },
+      { key: 'order pickup', label: 'Order Pickup' },
+      { key: 'out for delivered', label: 'Out For Delivery' },
+      { key: 'order delivered', label: 'Order Delivered' }
+    ];
 
-  const handleTrackOrder = () => {
+    // Sort all status records by record_time
+    const apiStatuses = [...orderStatuses].sort((a, b) => {
+      const dateA = new Date(a.record_time || a.created_at || a.updated_at);
+      const dateB = new Date(b.record_time || b.created_at || b.updated_at);
+      return dateA - dateB;
+    });
+
+    // Create a map of status text to API status data for quick lookup
+    const statusMap = new Map();
+    apiStatuses.forEach((status) => {
+      const statusText = (status.staff_comment || status.status || status.name || '').toLowerCase().trim();
+      // Try to match against all possible status keys
+      allPossibleStatuses.forEach((possibleStatus) => {
+        // Check if status text contains the key or vice versa, or exact match
+        if (statusText.includes(possibleStatus.key) || 
+            possibleStatus.key.includes(statusText) ||
+            statusText === possibleStatus.key) {
+          if (!statusMap.has(possibleStatus.key)) {
+            statusMap.set(possibleStatus.key, status);
+          }
+        }
+      });
+    });
+
+    // Build result array with all possible statuses
+    return allPossibleStatuses.map((possibleStatus, index) => {
+      const apiStatus = statusMap.get(possibleStatus.key);
+      const isCompleted = !!apiStatus;
+
+      if (apiStatus) {
+        const recordTime = apiStatus.record_time || apiStatus.created_at || apiStatus.updated_at;
+        return {
+          id: apiStatus.id || index + 1,
+          status: possibleStatus.label,
+          date: new Date(recordTime).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'short',
+            day: '2-digit'
+          }),
+          time: new Date(recordTime).toLocaleTimeString('en-US', {
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: true
+          }),
+          location: apiStatus.location || apiStatus.warehouse_name || 'Unknown Location',
+          isCompleted: isCompleted,
+        };
+      } else {
+        // Status not found in API data - show as pending
+        return {
+          id: index + 1,
+          status: possibleStatus.label,
+          date: '',
+          time: '',
+          location: '',
+          isCompleted: false,
+        };
+      }
+    });
+  };
+
+  const handleTrackOrder = async () => {
     if (!trackingNumber.trim()) {
       setError('Please enter a tracking number');
       return;
@@ -159,20 +208,31 @@ const HeroSliderThree = () => {
     setIsTracking(true);
     setTrackingResult(null);
 
-    // Simulate API call
-    setTimeout(() => {
+    try {
+      const apiData = await fetchOrderStatus(trackingNumber.trim());
+      const transformedData = transformApiData(apiData);
+      
+      // Find the last completed status
+      const completedStatuses = transformedData.filter(s => s.isCompleted);
+      const lastStatus = completedStatuses.length > 0 
+        ? completedStatuses[completedStatuses.length - 1].status 
+        : transformedData[0].status;
+
       setTrackingResult({
         trackingNumber: trackingNumber,
-        status: 'In Transit',
-        data: sampleTrackingData,
-        currentLocation: 'Mumbai Hub',
-        expectedDelivery: new Date(Date.now() + 2 * 24 * 60 * 60 * 1000).toLocaleDateString()
+        status: lastStatus,
+        data: transformedData,
+        trackingData: apiData
       });
+    } catch (error) {
+      setError(error.message);
+      setTrackingResult(null);
+    } finally {
       setIsTracking(false);
-    }, 2000);
+    }
   };
 
-  const handleCheckPincode = () => {
+  const handleCheckPincode = async () => {
     if (!pincode.trim()) {
       setError('Please enter a pincode');
       return;
@@ -187,19 +247,38 @@ const HeroSliderThree = () => {
     setIsCheckingPincode(true);
     setPincodeResult(null);
 
-    // Simulate API call
-    setTimeout(() => {
-      const isServiceable = serviceablePincodes.includes(pincode);
-      setPincodeResult({
-        pincode: pincode,
-        isServiceable: isServiceable,
-        message: isServiceable 
-          ? "Great! We provide service in this area." 
-          : "Sorry, we don't provide service in this area yet.",
-        deliveryTime: isServiceable ? "1-2 business days" : null
-      });
+    // Local lookup in pin code dataset
+    try {
+      const match = pinCodeList.find((item) => String(item.Pin).padStart(6, "0") === pincode);
+
+      if (match) {
+        setPincodeResult({
+          pincode: pincode,
+          isServiceable: true,
+          message: "Great! We provide service in this area.",
+          details: {
+            facilityCity: match.FacilityCity,
+            facilityState: match.FacilityState,
+            dispatchCenter: match.DispatchCenter,
+            originCenter: match.OriginCenter,
+            oda: match.ODA,
+            zone: match.Zone,
+            hub: match.hub || null
+          }
+        });
+      } else {
+        setPincodeResult({
+          pincode: pincode,
+          isServiceable: false,
+          message: "Sorry, we don't provide service in this area yet.",
+          details: null
+        });
+      }
+    } catch (e) {
+      setError("Something went wrong while checking the pincode.");
+    } finally {
       setIsCheckingPincode(false);
-    }, 1500);
+    }
   };
 
   // Navigate to full pages
@@ -340,7 +419,7 @@ const HeroSliderThree = () => {
                 </button>
 
                 {/* Tracking Results */}
-                {trackingResult && (
+                {trackingResult && trackingResult.data && (
                   <div className="quick-access-result" style={{ 
                     backgroundColor: '#f0f9ff',
                     border: '1px solid #0ea5e9'
@@ -351,17 +430,16 @@ const HeroSliderThree = () => {
                     <div className="result-text">
                       Status: <span style={{ color: '#059669', fontWeight: '600' }}>{trackingResult.status}</span>
                     </div>
-                    <div className="result-text">
-                      Location: {trackingResult.currentLocation}
-                    </div>
+                    
                     <button 
                       onClick={handleNavToTracking}
                       style={{
-                        backgroundColor: '#0ea5e9',
-                        color: 'white'
+                        backgroundColor: '#dc2626',
+                        color: 'white',
+                        marginTop: '12px'
                       }}
                     >
-                      View Details
+                      View Full Timeline
                     </button>
                   </div>
                 )}
@@ -405,19 +483,57 @@ const HeroSliderThree = () => {
                     <div className="result-text">
                       {pincodeResult.message}
                     </div>
-                    {pincodeResult.deliveryTime && (
-                      <div className="result-delivery">
-                        Delivery: {pincodeResult.deliveryTime}
+                    {pincodeResult.details && (
+                      <div className="result-details" style={{ marginTop: '12px', fontSize: '12px' }}>
+                        <div style={{ marginBottom: '6px', fontWeight: '600' }}>Service Details:</div>
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '6px', fontSize: '11px' }}>
+                          {pincodeResult.details.facilityCity && (
+                            <div>
+                              <strong>City:</strong> {pincodeResult.details.facilityCity}
+                            </div>
+                          )}
+                          {pincodeResult.details.facilityState && (
+                            <div>
+                              <strong>State:</strong> {pincodeResult.details.facilityState}
+                            </div>
+                          )}
+                          {pincodeResult.details.dispatchCenter && (
+                            <div>
+                              <strong>Dispatch:</strong> {pincodeResult.details.dispatchCenter}
+                            </div>
+                          )}
+                          {pincodeResult.details.originCenter && (
+                            <div>
+                              <strong>Origin:</strong> {pincodeResult.details.originCenter}
+                            </div>
+                          )}
+                          {pincodeResult.details.zone && (
+                            <div>
+                              <strong>Zone:</strong> {pincodeResult.details.zone}
+                            </div>
+                          )}
+                          {pincodeResult.details.oda && (
+                            <div>
+                              <strong>ODA:</strong> {pincodeResult.details.oda}
+                            </div>
+                          )}
+                          {pincodeResult.details.hub && (
+                            <div style={{ gridColumn: 'span 2' }}>
+                              <strong>Hub:</strong> {pincodeResult.details.hub}
+                            </div>
+                          )}
+                        </div>
                       </div>
                     )}
                     <button 
                       onClick={handleNavToServiceability}
                       style={{
                         backgroundColor: pincodeResult.isServiceable ? '#10b981' : '#ef4444',
-                        color: 'white'
+                        color: 'white',
+                        marginTop: '12px'
                       }}
                     >
-                      Check More
+                      View Full Details
                     </button>
                   </div>
                 )}

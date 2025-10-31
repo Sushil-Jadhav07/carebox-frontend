@@ -218,6 +218,9 @@
 }
 
 .cs_site_header.cs_style1 {
+  position: relative;
+  z-index: 1000;
+  
   .cs_main_header_in,
   .cs_top_header_in {
     display: flex;
@@ -944,6 +947,28 @@
   }
 }
 @media screen and (max-width: 1199px) {
+  .cs_site_header,
+  .cs_site_header.cs_style1,
+  .cs_site_header.cs_style1.cs_sticky_header,
+  .cs_site_header.cs_style1.cs_gescout_sticky,
+  .cs_sticky_header,
+  .cs_sticky_header.cs_site_header.cs_style1 {
+    background: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(50px) !important;
+    -webkit-backdrop-filter: blur(50px) !important;
+    position: relative;
+  }
+  
+  .cs_main_header {
+    background: transparent !important;
+  }
+  
+  .cs_site_header.cs_style1.cs_sticky-active {
+    background: rgba(255, 255, 255, 0.85) !important;
+    backdrop-filter: blur(50px) !important;
+    -webkit-backdrop-filter: blur(50px) !important;
+  }
+  
   .cs-header-action-item {
     display: none !important;
   }
@@ -1005,6 +1030,9 @@
         display: block;
         padding: 8px 20px;
       }
+      &.cs_show-moblie-nav-list {
+        display: block !important;
+      }
     }
     .menu-item-has-children {
       position: relative;
@@ -1056,6 +1084,26 @@
     right: 10px;
     margin-top: -13px;
   }
+  /* Position Login Button beside Menu Toggle on Mobile */
+  .cs_site_header.cs_style1 .cs_main_header_right {
+    position: relative;
+    .cs-header-login-btn {
+      position: absolute;
+      right: 50px; /* Position to the left of menu toggle (toggle is at right: 10px, width ~30px) */
+      top: 50%;
+      transform: translateY(-50%);
+      margin-right: 0;
+      z-index: 10;
+      .cs-login-btn {
+        padding: 8px 15px;
+        font-size: 13px;
+        white-space: nowrap;
+      }
+    }
+    .cs-header-additional-item {
+      display: none;
+    }
+  }
   .cs_toggle_active {
     span {
       background-color: rgba(0, 0, 0, 0);
@@ -1079,7 +1127,7 @@
     position: relative;
   }
   .cs_site_header.cs_style1 .cs_main_header_in {
-    padding: 22px 0px;
+    padding: 15px 0px;
   }
   .cs_hamburger span {
     height: 3px;
@@ -1097,7 +1145,9 @@
     }
   }
   .cs_sticky_header{
-    background: transparent;
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(50px) !important;
+    -webkit-backdrop-filter: blur(50px) !important;
   }
   .cs_site_header.cs_style1 {
     top: 0;
@@ -1138,15 +1188,22 @@
     }
     .cs_main_header_right {
       margin-right: 0;
+      position: relative;
       .cs-header-login-btn {
-        margin-right: 15px;
+        position: absolute;
+        right: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 0;
+        z-index: 10;
         .cs-login-btn {
-          padding: 10px 18px;
+          padding: 8px 15px;
           font-size: 13px;
+          white-space: nowrap;
         }
       }
       .cs-header-additional-item {
-        margin-right: 15px;
+        display: none;
       }
     }
   }
@@ -1201,9 +1258,11 @@
   }
   .cs_site_header.cs_style1 .cs_main_header_right {
     .cs-header-login-btn {
-      margin-right: 10px;
+      right: 45px; /* Slightly adjust for smaller screens */
       .cs-login-btn {
-        padding: 5px 20px;
+        margin: 0 10px 0 0;
+
+        padding: 5px 15px;
         font-size: 12px;
       }
     }

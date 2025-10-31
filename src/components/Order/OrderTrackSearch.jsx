@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import OrderTrackingStep from "./OrderTrackingStep";
 
 const OrderTrackSearch = () => {
@@ -35,31 +34,77 @@ const OrderTrackSearch = () => {
   };
 
   const transformApiData = (apiData) => {
-    const { orderStatuses = [], packageStatus = [] } = apiData;
+    // Use only orderStatuses array, ignore packageStatus
+    const { orderStatuses = [] } = apiData;
     
-    // Combine and sort all status records by date
-    const allStatuses = [...orderStatuses, ...packageStatus].sort((a, b) => {
-      const dateA = new Date(a.created_at || a.updated_at);
-      const dateB = new Date(b.created_at || b.updated_at);
+    // Define all possible status steps in order
+    const allPossibleStatuses = [
+      { key: 'order created', label: 'Order Created' },
+      { key: 'order shipped', label: 'Order Shipped' },
+      { key: 'order pickup', label: 'Order Pickup' },
+      { key: 'out for delivered', label: 'Out For Delivery' },
+      { key: 'order delivered', label: 'Order Delivered' }
+    ];
+
+    // Sort all status records by record_time
+    const apiStatuses = [...orderStatuses].sort((a, b) => {
+      const dateA = new Date(a.record_time || a.created_at || a.updated_at);
+      const dateB = new Date(b.record_time || b.created_at || b.updated_at);
       return dateA - dateB;
     });
 
-    return allStatuses.map((status, index) => ({
-      id: status.id || index + 1,
-      status: status.status || status.name || 'Unknown Status',
-      date: new Date(status.created_at || status.updated_at).toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'short',
-        day: '2-digit'
-      }),
-      time: new Date(status.created_at || status.updated_at).toLocaleTimeString('en-US', {
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: true
-      }),
-      location: status.location || status.warehouse_name || 'Unknown Location',
-      isCompleted: index < allStatuses.length - 1, // All except the last one are completed
-    }));
+    // Create a map of status text to API status data for quick lookup
+    const statusMap = new Map();
+    apiStatuses.forEach((status) => {
+      const statusText = (status.staff_comment || status.status || status.name || '').toLowerCase().trim();
+      // Try to match against all possible status keys
+      allPossibleStatuses.forEach((possibleStatus) => {
+        // Check if status text contains the key or vice versa, or exact match
+        if (statusText.includes(possibleStatus.key) || 
+            possibleStatus.key.includes(statusText) ||
+            statusText === possibleStatus.key) {
+          if (!statusMap.has(possibleStatus.key)) {
+            statusMap.set(possibleStatus.key, status);
+          }
+        }
+      });
+    });
+
+    // Build result array with all possible statuses
+    return allPossibleStatuses.map((possibleStatus, index) => {
+      const apiStatus = statusMap.get(possibleStatus.key);
+      const isCompleted = !!apiStatus;
+
+      if (apiStatus) {
+        const recordTime = apiStatus.record_time || apiStatus.created_at || apiStatus.updated_at;
+        return {
+          id: apiStatus.id || index + 1,
+          status: possibleStatus.label,
+          date: new Date(recordTime).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'short',
+            day: '2-digit'
+          }),
+          time: new Date(recordTime).toLocaleTimeString('en-US', {
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: true
+          }),
+          location: apiStatus.location || apiStatus.warehouse_name || 'Unknown Location',
+          isCompleted: isCompleted,
+        };
+      } else {
+        // Status not found in API data - show as pending
+        return {
+          id: index + 1,
+          status: possibleStatus.label,
+          date: '',
+          time: '',
+          location: '',
+          isCompleted: false,
+        };
+      }
+    });
   };
 
   const handleSearch = async () => {
@@ -170,24 +215,45 @@ const OrderTrackSearch = () => {
                     </div>
                     <div className="cs-status-badge">
                       <span className="cs-status-dot"></span>
-                      {searchResults.length > 0 ? searchResults[searchResults.length - 1].status : 'Unknown'}
+                      {searchResults.length > 0 
+                        ? (() => {
+                            const completedStatuses = searchResults.filter(s => s.isCompleted);
+                            return completedStatuses.length > 0 
+                              ? completedStatuses[completedStatuses.length - 1].status 
+                              : searchResults[0].status;
+                          })()
+                        : 'Unknown'}
                     </div>
                   </div>
 
                   {/* Timeline */}
                   <div className="cs-logi-order-track">
-                    {searchResults.map((step, index) => (
-                      <OrderTrackingStep
-                        key={step.id}
-                        status={step.status}
-                        date={step.date}
-                        time={step.time}
-                        location={step.location}
-                        isCompleted={step.isCompleted}
-                        isLast={index === searchResults.length - 1}
-                        stepNumber={index + 1}
-                      />
-                    ))}
+                    {searchResults.map((step, index) => {
+                      // Find the last completed step index
+                      const lastCompletedIndex = searchResults.reduce((lastIndex, s, idx) => {
+                        return s.isCompleted ? idx : lastIndex;
+                      }, -1);
+                      
+                      // Line should be green if we're before or at the last completed step
+                      const shouldShowGreenLine = index <= lastCompletedIndex;
+                      
+                      return (
+                        <div
+                          key={step.id}
+                          className={`cs-logi-order-track-step ${shouldShowGreenLine ? 'step-completed' : ''}`}
+                        >
+                          <OrderTrackingStep
+                            status={step.status}
+                            date={step.date}
+                            time={step.time}
+                            location={step.location}
+                            isCompleted={step.isCompleted}
+                            isLast={index === searchResults.length - 1}
+                            stepNumber={index + 1}
+                          />
+                        </div>
+                      );
+                    })}
                   </div>
 
                   {/* Summary Information */}

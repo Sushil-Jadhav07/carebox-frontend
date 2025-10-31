@@ -52,6 +52,7 @@ figure {
     padding: 0 15px;
     min-width: 120px;
 
+    // Default gray line (for pending steps)
     &:not(:last-child)::after {
       content: '';
       position: absolute;
@@ -59,8 +60,13 @@ figure {
       left: calc(50% + 20px);
       right: -20px;
       height: 3px;
-      background: #4CAF50;
+      background: #E0E0E0;
       z-index: 1;
+    }
+
+    // Green line only if current step is completed
+    &.step-completed:not(:last-child)::after {
+      background: #4CAF50;
     }
 
     // Last step should NOT have a line after it

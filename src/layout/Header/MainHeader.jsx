@@ -36,6 +36,15 @@ const MainHeader = ({ setIsSideBarOpen, ref }) => {
           {/* Main Header Middle Area */}
           <div className="cs-logi-header-middle">
             <div className="cs_nav cs_medium">
+              <span
+                onClick={() => setIsNavOpen((prev) => !prev)}
+                id="navBar"
+                className={`cs_munu_toggle ${
+                  isNavOpen ? "cs_toggle_active" : ""
+                }`}
+              >
+                <span></span>
+              </span>
               <ul
                 className={`cs_nav_list ${
                   isNavOpen ? "cs_show-moblie-nav-list" : ""
@@ -46,15 +55,6 @@ const MainHeader = ({ setIsSideBarOpen, ref }) => {
                   <MenuItem item={item} key={index} />
                 ))}
               </ul>
-              {/* <span
-                onClick={() => setIsNavOpen((prev) => !prev)}
-                id="navBar"
-                className={`cs_munu_toggle ${
-                  isNavOpen ? "cs_toggle_active" : ""
-                }`}
-              >
-                <span></span>
-              </span> */}
             </div>
           </div>
 

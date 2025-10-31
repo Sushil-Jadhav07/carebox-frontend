@@ -15,9 +15,11 @@ const OrderTrackingStep = ({ status, date, time, location, isCompleted, isLast, 
         return <FaFileAlt />;
       case 'shipment prepared':
       case 'order shipped':
+      case 'order pickup':
         return <FaBox />;
       case 'delivery in progress':
       case 'order in transit':
+      case 'out for delivery':
         return <FaTruck />;
       case 'order delivered':
       case 'order delivery':
@@ -38,7 +40,7 @@ const OrderTrackingStep = ({ status, date, time, location, isCompleted, isLast, 
       </div>
       <div className="cs-logi-order-track-text">
         <p className="cs-logi-order-track-text-stat">{status}</p>
-        <span className="cs-logi-order-track-text-date">{date}</span>
+        {date && <span className="cs-logi-order-track-text-date">{date}</span>}
         {time && <span className="cs-logi-order-track-text-time">{time}</span>}
         {/* {location && <span className="cs-logi-order-track-text-location">{location}</span>} */}
       </div>

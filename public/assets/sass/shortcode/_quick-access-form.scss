@@ -65,11 +65,12 @@
   .quick-access-tabs {
     display: flex;
     border-bottom: 1px solid #e5e7eb;
+    padding: 0 8px;
   
     .quick-access-tab {
       flex: 1;
       margin: 10px 8px;
-      padding: 10px 5px;
+      padding: 10px 8px;
       background: #f3f4f6;
       border: none;
       border-radius: 6px;
@@ -101,6 +102,7 @@
         font-size: 13px;
         padding: 10px 8px;
         gap: 6px;
+        margin: 10px 6px;
       }
     }
   }
@@ -290,12 +292,12 @@
       box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
       overflow: hidden;
       position: relative;
-      width: 100%;
-      right: auto;
+      width: 90%;
+      right: 10px;
       left: auto;
       top: auto;
       bottom: auto;
-     margin: 20px 10px 0;
+     margin: 20px 30px 0;
     }
   
     .quick-access-header {
@@ -324,18 +326,23 @@
       }
     }
   
-    .quick-access-tabs .quick-access-tab {
-      font-size: 12px;
-      padding: 10px 8px;
-      gap: 6px;
+    .quick-access-tabs {
+      padding: 0 4px;
       
-      span {
-        display: none;
-      }
+      .quick-access-tab {
+        font-size: 12px;
+        padding: 10px 8px;
+        gap: 6px;
+        margin: 10px 4px;
+        
+        span {
+          display: none;
+        }
 
-      svg {
-        width: 18px;
-        height: 18px;
+        svg {
+          width: 18px;
+          height: 18px;
+        }
       }
     }
 
@@ -430,16 +437,17 @@
   // Ensure form doesn't overflow on small screens
   @media (max-width: 320px) {
     .quick-access-form {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
       position: relative;
-      width: 100%;
-      right: auto;
+      width: 90%;
+      right: 10px;
       left: auto;
       top: auto;
       bottom: auto;
-      margin-top: 15px;
-      margin-left: 0;
-      margin-right: 0;
-      border-radius: 0;
+     margin: 20px 30px 0;
     }
 
     .quick-access-header {
@@ -455,9 +463,11 @@
     }
 
     .quick-access-tabs {
+      padding: 0 4px;
+      
       .quick-access-tab {
-        margin: 8px 6px;
-        padding: 8px 4px;
+        margin: 8px 4px;
+        padding: 8px 6px;
         font-size: 11px;
         gap: 4px;
 

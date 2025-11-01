@@ -19,6 +19,7 @@
       }
 
       .cs-hero-slide-content {
+        max-width: 900px;
         padding-top: 0px;
         position: absolute;
         left: 100px;
@@ -319,6 +320,7 @@
     .cs-hero-slider-content-wrap
     .cs-hero-slider-content
     .cs-hero-slide-content {
+      max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 40px;

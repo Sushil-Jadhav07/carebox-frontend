@@ -301,10 +301,10 @@ const HeroSliderThree = () => {
                   swiperRef.current = swiper;
                 }}
                 modules={[Navigation, Autoplay, Parallax]}
-                speed={1000}
+                // speed={1000}
                 parallax={true}
-                loop={true}
-                autoplay={{ delay: 5000, disableOnInteraction: false }}
+                // loop={true}
+                // autoplay={{ delay: 5000, disableOnInteraction: false }}
                 className="swiper-wrapper"
               >
                 {slides.map((slide, index) => (

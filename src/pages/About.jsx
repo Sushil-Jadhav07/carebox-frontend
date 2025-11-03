@@ -9,6 +9,7 @@ import Testimonials from "@/components/Testimonial/Testimonials";
 import ProjectSlider from "@/components/ProjectSlider/ProjectSlider";
 import CtaSection from "@/components/CtaSection/CtaSection";
 import AboutStyleTwo from "@/components/About/AboutStyleTwo";
+import AboutTwo from "@/components/About/AboutTwo";
 import FullWidthVideo from "@/components/VideoSection/FullWidthVideo";
 import TeamSliderSection from "@/components/TeamMembers/TeamSliderSection";
 import AboutSection from "@/components/About/About";
@@ -19,7 +20,7 @@ function About() {
     <>
       <BreadCrumb title={"About Us"} />
 
-      <AboutSection />
+      <AboutTwo />
       <Marquee />
       {/* <ClientAreaAbout /> */}
       {/* <AboutStyleTwo /> */}

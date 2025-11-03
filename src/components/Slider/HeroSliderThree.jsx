@@ -12,22 +12,22 @@ const slides = [
     id: 1,
     title: "Reliable Courier Services, Delivered Right",
     subtitle: "With 25+ years of expertise, Carebox provides fast, secure, and affordable domestic and local courier services to meet all your shipping needs.",
-    image: "assets/img/air-freight/banner1.png",
-    bgImg: "/assets/img/air-freight/banner1.png",
+    image: "assets/img/air-freight/banner1.webp",
+    bgImg: "/assets/img/air-freight/banner1.webp",
   },
   {
     id: 2,
     title: "Fast, Secure, and Trusted Delivery Solutions",
     subtitle: "Whether it’s local express or nationwide shipping, Carebox guarantees timely, reliable deliveries with real-time tracking for your peace of mind.",
-    image: "assets/img/air-freight/hbanner1.png",
-    bgImg: "/assets/img/air-freight/banner2.png",
+    image: "assets/img/air-freight/hbanner1.webp",
+    bgImg: "/assets/img/air-freight/banner2.webp",
   },
   {
     id: 3,
     title: "Your Trusted Partner in Shipping",
     subtitle: "Carebox, Mumbai-based and customer-focused, offers tailored courier solutions with over two decades of industry experience, ensuring your parcels arrive safely and on time",
-    image: "assets/img/air-freight/hbanner1.png",
-    bgImg: "/assets/img/air-freight/banner3.png",
+    image: "assets/img/air-freight/hbanner1.webp",
+    bgImg: "/assets/img/air-freight/banner3.webp",
   },
 ];
 

@@ -150,12 +150,12 @@ const OrderTrackSearch = () => {
                   >
                     AWB
                   </button>
-                  <button
+                  {/* <button
                     onClick={() => handleTabChange("order")}
                     className={`cs-tab-btn ${activeTab === "order" ? "active" : ""}`}
                   >
                     Order/Ref. Number
-                  </button>
+                  </button> */}
                 </div>
 
                 {/* Search Input */}

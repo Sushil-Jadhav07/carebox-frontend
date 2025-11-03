@@ -261,7 +261,9 @@
 
 .cs-page-single-wrap {
   .cs-page-single-wrap-in {
+    padding: 60px 40px;
     .cs-page-single-content-wrap {
+      
       .cs-page-content-in {
         h4,
         h6 {
@@ -328,7 +330,24 @@
 
 @media screen and (max-width: 991px) {
   .reverse-widget {
-    margin-top: 50px;
+    margin-top: 0px;
+  }
+  .cs-page-single-wrap .cs-page-single-wrap-in {
+    padding: 40px 30px;
+  }
+  .cs-page-single-wrap .cs-page-single-wrap-in .cs-page-single-content-wrap {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cs-page-single-wrap .cs-page-single-wrap-in {
+    padding: 30px 20px;
+  }
+  .cs-page-single-wrap .cs-page-single-wrap-in .cs-page-single-content-wrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 

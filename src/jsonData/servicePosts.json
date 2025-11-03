@@ -2,180 +2,180 @@
   {
     "id": 1,
     "serviceId": 1,
-    "title": "Freight Transportation",
+    "title": "Prime Track",
     "paragraphs": [
-      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+      "Say no more to the shipment delays with our guaranteed next/two-day delivery across India for urgent shipments. Prime Track is our premium service designed for time-sensitive deliveries that cannot afford delays. With extensive network coverage and priority handling, we ensure your urgent consignments reach their destination on time, every time."
     ],
-    "imageSrc": "/assets/img/service-single.jpg",
+    "imageSrc": "/assets/img/air-freight/service1.webp",
     "sections": [
       {
-        "title": "Overview of Services",
-        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+        "title": "Overview of Prime Track Service",
+        "content": "Prime Track is specifically designed for businesses that require guaranteed delivery within strict timelines. Whether it's critical documents, medical supplies, or urgent business shipments, our Prime Track service provides the reliability and speed you need. With real-time tracking and dedicated support, you stay informed throughout the delivery process."
       },
       {
         "title": "Service Key Features",
-        "content": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+        "content": "Our Prime Track service offers guaranteed next-day or two-day delivery across all major cities in India. With priority pickup, dedicated handling, and express routing through our fastest channels, your shipments get preferential treatment at every stage. Advanced tracking systems allow you to monitor your consignment in real-time, while our dedicated customer support team is available 24/7 to assist you."
       }
     ],
     "FrequentlyQuestion": {
-      "title": "Frequently Asked Question",
-      "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+      "title": "Frequently Asked Questions",
+      "content": "Prime Track is our fastest domestic delivery service, ideal for urgent shipments that require guaranteed delivery within 1-2 days. It's perfect for time-critical business documents, emergency supplies, and high-priority parcels."
     },
     "features": [
       {
         "id": 1,
-        "title": "Comprehensive Supply Chain Management",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Guaranteed Next/Two-Day Delivery",
+        "description": "Assured delivery within 24-48 hours across India with service level agreements and on-time performance tracking."
       },
       {
         "id": 2,
-        "title": "Efficient Transportation Solutions",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Priority Handling & Routing",
+        "description": "Your shipments receive preferential treatment with dedicated pickup slots and express routing through our fastest channels."
       },
       {
         "id": 3,
-        "title": "Comprehensive Supply Chain Management",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Real-Time Tracking",
+        "description": "Advanced GPS-enabled tracking system allows you to monitor your shipment's location and status at every stage of transit."
       },
       {
         "id": 4,
-        "title": "Efficient Transportation Solutions",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "24/7 Dedicated Support",
+        "description": "Round-the-clock customer support team available to assist with urgent queries and provide shipment updates."
       }
     ]
   },
   {
     "id": 2,
     "serviceId": 2,
-    "title": "Warehousing & Distribution",
+    "title": "Express Standard",
     "paragraphs": [
-      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+      "Fulfil all your immediate logistics needs with our express deliveries via air, rail, and road freight at economical rates. Express Standard offers the perfect balance between speed and cost-effectiveness, making it ideal for businesses looking for reliable and timely deliveries without premium pricing."
     ],
-    "imageSrc": "/assets/img/service-single.jpg",
+    "imageSrc": "/assets/img/air-freight/service2.webp",
     "sections": [
       {
-        "title": "Overview of Services",
-        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+        "title": "Overview of Express Standard Service",
+        "content": "Express Standard is our versatile delivery solution that combines multiple transportation modes to provide fast and economical shipping across India. By leveraging air, rail, and road networks, we optimize routes to deliver your consignments quickly while keeping costs under control. This service is perfect for regular business shipments that need reliable delivery within a reasonable timeframe."
       },
       {
         "title": "Service Key Features",
-        "content": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+        "content": "Our Express Standard service utilizes a multimodal approach to ensure efficient delivery across all pin codes in India. With flexible pickup schedules, competitive pricing, and a robust delivery network, we make express shipping accessible to businesses of all sizes. Our streamlined processes and experienced team ensure your shipments are handled professionally from pickup to final delivery."
       }
     ],
     "FrequentlyQuestion": {
-      "title": "Frequently Asked Question",
-      "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+      "title": "Frequently Asked Questions",
+      "content": "Express Standard is designed for businesses that need reliable express delivery at economical rates. It typically delivers within 2-4 days depending on the destination and uses a combination of air, rail, and road transport for optimal efficiency."
     },
     "features": [
       {
         "id": 1,
-        "title": "Comprehensive Supply Chain Management",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Multimodal Transportation",
+        "description": "Flexible use of air, rail, and road freight to optimize delivery speed and cost based on your specific requirements."
       },
       {
         "id": 2,
-        "title": "Efficient Transportation Solutions",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Economical Pricing",
+        "description": "Competitive rates that make express delivery affordable for regular shipments without compromising on service quality."
       },
       {
         "id": 3,
-        "title": "Comprehensive Supply Chain Management",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Wide Network Coverage",
+        "description": "Extensive delivery network covering urban centers and remote locations across India with reliable service standards."
       },
       {
         "id": 4,
-        "title": "Efficient Transportation Solutions",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Flexible Pickup Schedules",
+        "description": "Convenient pickup timings that accommodate your business operations with regular scheduled pickups available."
       }
     ]
   },
   {
     "id": 3,
     "serviceId": 3,
-    "title": "Supply Chain Management",
+    "title": "Road Express Cargo",
     "paragraphs": [
-      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+      "Get affordable delivery solutions to ship heavy B2B consignments with special material handling and professional pickup services. Road Express Cargo is specifically designed for bulk shipments and heavy cargo that require specialized handling, making it the ideal choice for manufacturing, wholesale, and industrial businesses."
     ],
-    "imageSrc": "/assets/img/service-single.jpg",
+    "imageSrc": "/assets/img/air-freight/service3.webp",
     "sections": [
       {
-        "title": "Overview of Services",
-        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+        "title": "Overview of Road Express Cargo Service",
+        "content": "Road Express Cargo specializes in handling heavy and bulk B2B shipments with professional care and expertise. Our service is equipped to manage large consignments, industrial equipment, machinery, and wholesale goods that require special handling. With dedicated vehicles, trained personnel, and secure transportation methods, we ensure your valuable cargo reaches its destination safely."
       },
       {
         "title": "Service Key Features",
-        "content": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+        "content": "Our Road Express Cargo service offers specialized equipment for loading and unloading heavy items, trained handlers who understand industrial cargo requirements, and flexible vehicle options ranging from small trucks to large trailers. We provide door-to-door service with professional pickup teams and secure packaging solutions to protect your goods during transit."
       }
     ],
     "FrequentlyQuestion": {
-      "title": "Frequently Asked Question",
-      "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+      "title": "Frequently Asked Questions",
+      "content": "Road Express Cargo is ideal for heavy B2B shipments weighing over 50 kg. We specialize in industrial goods, machinery, wholesale consignments, and bulk orders that require special handling and professional loading/unloading services."
     },
     "features": [
       {
         "id": 1,
-        "title": "Comprehensive Supply Chain Management",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Heavy Cargo Handling",
+        "description": "Specialized equipment and trained personnel for safe loading, transit, and unloading of heavy and oversized items."
       },
       {
         "id": 2,
-        "title": "Efficient Transportation Solutions",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Professional Pickup Service",
+        "description": "Dedicated pickup teams with appropriate vehicles and handling equipment for efficient collection of bulk consignments."
       },
       {
         "id": 3,
-        "title": "Comprehensive Supply Chain Management",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Special Material Handling",
+        "description": "Expert handling of fragile, hazardous, or sensitive cargo with appropriate packaging and transportation protocols."
       },
       {
         "id": 4,
-        "title": "Efficient Transportation Solutions",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Affordable B2B Rates",
+        "description": "Competitive pricing structures designed for regular business shipments with volume discounts and flexible payment terms."
       }
     ]
   },
   {
     "id": 4,
     "serviceId": 4,
-    "title": "E-Commerce Solutions",
+    "title": "Cash on Delivery/DOD",
     "paragraphs": [
-      "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+      "We bring you the ease of getting swift COD payments from the consignee/receiver to ensure uninterrupted cash flow. Exclusively applicable to corporate/credit customers, this service can be clubbed with our ToPay offering. Our COD/DOD service streamlines your payment collection process, reducing the hassle of follow-ups and enabling faster business cycles."
     ],
-    "imageSrc": "/assets/img/service-single.jpg",
+    "imageSrc": "/assets/img/air-freight/service4.webp",
     "sections": [
       {
-        "title": "Overview of Services",
-        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur."
+        "title": "Overview of COD/DOD Service",
+        "content": "Our Cash on Delivery and Delivery on Demand service is designed to simplify payment collection for businesses. We collect payments from your customers at the time of delivery and remit them to you through secure channels, eliminating the need for manual collection and reducing payment delays. This service is particularly valuable for e-commerce businesses, distributors, and companies dealing with trade customers."
       },
       {
         "title": "Service Key Features",
-        "content": "Before you start searching for a logistics partner, it's essential to have a clear understanding of your business's specific requirements. Consider factors such as the volume of goods you need to transport."
+        "content": "With our COD/DOD service, payments are collected at delivery and remitted to your account within a specified timeframe. The service includes comprehensive documentation, secure payment handling, and detailed reporting for easy reconciliation. You can combine it with our ToPay service for flexible freight payment options, making it easier to manage your logistics and cash flow simultaneously."
       }
     ],
     "FrequentlyQuestion": {
-      "title": "Frequently Asked Question",
-      "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+      "title": "Frequently Asked Questions",
+      "content": "COD/DOD service is available exclusively for corporate and credit customers. It allows you to collect payments from consignees at delivery, ensuring faster cash flow. The collected amounts are remitted to your account through secure banking channels with full documentation and reconciliation support."
     },
     "features": [
       {
         "id": 1,
-        "title": "Comprehensive Supply Chain Management",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Swift Payment Collection",
+        "description": "Efficient collection of payments from consignees at the time of delivery with proper documentation and receipts."
       },
       {
         "id": 2,
-        "title": "Efficient Transportation Solutions",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Secure Remittance",
+        "description": "Safe and timely transfer of collected payments to your account through verified banking channels with full transparency."
       },
       {
         "id": 3,
-        "title": "Comprehensive Supply Chain Management",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "ToPay Integration",
+        "description": "Seamlessly combine COD with ToPay service where freight charges are collected from the receiver, offering flexible payment options."
       },
       {
         "id": 4,
-        "title": "Efficient Transportation Solutions",
-        "description": "Contrary to popular belief, Lorem Ipsum is not simply random text."
+        "title": "Detailed Reporting",
+        "description": "Comprehensive reports and documentation for easy reconciliation, accounting, and tracking of all COD transactions."
       }
     ]
   }

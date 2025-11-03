@@ -2,25 +2,25 @@
   {
     "id": 1,
     "icon": "flaticon-airplane",
-    "title": "Freight Transportation",
-    "description": "Flexible and efficient road transportation across local and international routes."
+    "title": "Prime Track",
+    "description": "Say no more to the shipment delays with our guaranteed next/two-day delivery across India for urgent shipments."
   },
   {
     "id": 2,
     "icon": "flaticon-logistics",
-    "title": "Warehousing & Distribution",
-    "description": "Flexible and efficient road transportation across local and international routes."
+    "title": "Express Standard",
+    "description": "Fulfil all your immediate logistics needs with our express deliveries via air, rail, and road freight at economical rates."
   },
   {
     "id": 3,
     "icon": "flaticon-supply-chain",
-    "title": "Supply Chain Management",
-    "description": "Flexible and efficient road transportation across local and international routes."
+    "title": "Road Express Cargo",
+    "description": "Get affordable delivery solutions to ship heavy B2B consignments with special material handling and professional pickup services."
   },
   {
     "id": 4,
     "icon": "flaticon-shipping",
-    "title": "E-Commerce Solutions",
-    "description": "Flexible and efficient road transportation across local and international routes."
+    "title": "Cash on Delivery/DOD",
+    "description": "We bring you the ease of getting swift COD payments from the consignee/receiver to ensure uninterrupted cash flow."
   }
 ]

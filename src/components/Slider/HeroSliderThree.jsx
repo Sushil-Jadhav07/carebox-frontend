@@ -372,7 +372,7 @@ const HeroSliderThree = () => {
               }}
               className={`quick-access-tab ${activeTab === 'tracking' ? 'active' : ''}`}
             >
-              <MdLocalShipping size={20} />
+              <MdLocationOn size={20} />
               <span>Tracking</span>
             </button>
             <button
@@ -384,7 +384,7 @@ const HeroSliderThree = () => {
               }}
               className={`quick-access-tab ${activeTab === 'serviceability' ? 'active' : ''}`}
             >
-              <MdLocationOn size={20} />
+              <MdLocalShipping size={20} />
               <span>Serviceability</span>
             </button>
           </div>
